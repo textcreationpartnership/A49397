@@ -1,0 +1,944 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The plain man's guide to heaven containing his duty 1. Towards God. II. Towards his neighbour. With proper prayers, meditations, and ejaculations, designed chiefly for the countryman, trades-man, labourer, and such like.</title>
+            <author>Lucas, Richard, 1648-1715.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 130 KB of XML-encoded text transcribed from 90 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A49397</idno>
+            <idno type="STC">Wing L3406</idno>
+            <idno type="STC">ESTC R32885</idno>
+            <idno type="EEBO-CITATION">12775714</idno>
+            <idno type="OCLC">ocm 12775714</idno>
+            <idno type="VID">93768</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A49397)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 93768)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1036:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The plain man's guide to heaven containing his duty 1. Towards God. II. Towards his neighbour. With proper prayers, meditations, and ejaculations, designed chiefly for the countryman, trades-man, labourer, and such like.</title>
+                  <author>Lucas, Richard, 1648-1715.</author>
+               </titleStmt>
+               <extent>[10], 168 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Samuel Smith ...</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed by Wing to Richard Lucas.</note>
+                  <note>Errata on p. [9]</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian life.</term>
+               <term>Devotional calendars.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="imprimatur">
+            <p>Imprimatur,</p>
+            <closer>
+               <date>
+                  <hi>April</hi> 11. 1692.</date>
+               <signed>
+                  <hi>GEO. RO<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>SE.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:93768:1"/>
+            <pb facs="tcp:93768:1" rendition="simple:additions"/>
+            <p>THE <hi>Plain Man's</hi> GUIDE TO HEAVEN: Containing his Duty
+<list>
+                  <item>I. <hi>Towards God.</hi>
+                  </item>
+                  <item>II. <hi>Towards his Neighbour.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>With Proper Prayers, Meditations, and Ejaculations.</p>
+            <p>Deſigned chiefly for the <hi>Country-man, Trades-man, Labourer,</hi> and ſuch like.</p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Samuel Smith</hi> at the <hi>Prince</hi>'s <hi>Armes</hi> in St. <hi>Paul</hi>'s Church-yard. 1692.</p>
+         </div>
+         <div type="publishers_note">
+            <pb facs="tcp:93768:2"/>
+            <p>THe Duty of Apprentices and Servants: Containing 1. The Parent's Duty how to educate their Children that they may be fit to be employed and truſted. 2. What preparati<g ref="char:EOLhyphen"/>on is needful for ſuch as are entring into Service; with ſome Rules to be obſerved by them, how to make a wiſe and happy choice of a Service. 3. Their Duty in Service to<g ref="char:EOLhyphen"/>wards God, their Maſter, and themſelves: Together with ſutable Prayers to each Duty, and ſome Directions peculiarly to Servants, for the worthy receiving the Holy Sacrament. Publiſhed for the Benefit of Families. By <hi>Richard Lucas</hi> D. D. Vicar of St. <hi>Stephen</hi>'s <hi>Coleman-ſtreet, London,</hi> in 80. Price 1 <abbr>s.</abbr> 6 <abbr>d.</abbr> Printed for <hi>Samuel Smith</hi> at the <hi>Prince</hi>'s <hi>Arms</hi> in St. <hi>Paul</hi>'s Church yard.</p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:93768:2"/>
+            <head>THE CONTENTS.</head>
+            <list>
+               <head>CHAP. I.</head>
+               <item>THE Country-man and Trades-man's daily Duty and Devotion. <hi>Page 1.</hi>
+               </item>
+               <item>Texts relating to the Worſhipping of God by Prayers and Praiſes. <hi>4</hi>
+               </item>
+               <item>A Prayer to be uſed in private every Morning. <hi>5</hi>
+               </item>
+               <item>Texts which relate to the reading the Scriptures, and ſerving God in your Families. <hi>7</hi>
+               </item>
+               <item>A Morning Family Prayer. <hi>8</hi>
+               </item>
+               <item>Of teaching your Children their Prayers. <hi>11</hi>
+               </item>
+               <item>Texts which relate to the Duty of honeſt and diligent Labour refer'd to. <hi>ibid.</hi>
+               </item>
+               <pb facs="tcp:93768:3"/>
+               <item>Ejaculations at the beginning of your Work. <hi>p. 12.</hi>
+               </item>
+               <item>Of ſweetning your Labour by ſinging of Pſalms. <hi>14</hi>
+               </item>
+               <item>Of making your daily Labour a Religious Service. <hi>15</hi>
+               </item>
+               <item>Of ſaying Grace at your Meals, with proper Texts relating to that Duty. <hi>17</hi>
+               </item>
+               <item>Of your Chriſtian Behaviour at Meals. <hi>18</hi>
+               </item>
+               <item>Texts concerning the Duty of ſinging Pſalms. <hi>ibid.</hi>
+               </item>
+               <item>An Evening Family Prayer. <hi>20</hi>
+               </item>
+               <item>Of Self-Examination with Texts of Scrip<g ref="char:EOLhyphen"/>ture relating to that Duty. <hi>24</hi>
+               </item>
+               <item>The beſt way of doing this Duty, and the End to which it tends. <hi>27</hi>
+               </item>
+               <item>This Duty uſeful for your Temporal, as well as Spiritual Eſtate. <hi>29</hi>
+               </item>
+               <item>An Evening private Prayer, when upon Examination you find your ſelf guilty, <hi>&amp;c. 30</hi>
+               </item>
+               <item>An Evening private Prayer, when upon Examination of the paſt day, your Conſcience acquits you from wilful wickedneſs. <hi>34</hi>
+               </item>
+            </list>
+            <pb facs="tcp:93768:3"/>
+            <list>
+               <head>SECT. I.</head>
+               <item>OF the Lord's Day.</item>
+               <item>Proper Texts of Scripture concern<g ref="char:EOLhyphen"/>ing the ſanctifying of that Day. <hi>p. 37.</hi>
+               </item>
+            </list>
+            <list>
+               <head>CHAP. II.</head>
+               <item>A Morning Prayer for the Lord's Day <hi>38</hi>
+               </item>
+               <item>What you are to do before you go to Church. <hi>41</hi>
+               </item>
+               <item>What you are to do at your Entrance into the Church. <hi>42</hi>
+               </item>
+               <item>Of publick Prayer, with proper Texts of Scripture relating to that Duty. <hi>44</hi>
+               </item>
+               <item>The Abſolution explain'd. <hi>46</hi>
+               </item>
+               <item>Some Ejaculations when the Abſolution is pronounced. <hi>50</hi>
+               </item>
+               <item>Concerning thoſe Curſes that we meet with in ſome of the Pſalms. <hi>52</hi>
+               </item>
+               <item>Rules to be obſerv'd when you hear the Chapters read in the Church. <hi>53</hi>
+               </item>
+               <item>How Prayers for the Publick, are of great advantage to your ſelves. <hi>56</hi>
+               </item>
+               <item>Of that which is call'd the Second Service. <hi>57</hi>
+               </item>
+               <pb facs="tcp:93768:4"/>
+               <item>Proper Texts of Scripture concerning the hearing of God's Word. <hi>p. 59.</hi>
+               </item>
+               <item>A Prayer to be us'd between Morning and Evening Service. <hi>62</hi>
+               </item>
+               <item>You muſt not neglect Prayers in the After<g ref="char:EOLhyphen"/>noon, thô there be no Sermon. <hi>65</hi>
+               </item>
+               <item>How to behave your ſelves on Sunday-Evenings. <hi>66</hi>
+               </item>
+            </list>
+            <list>
+               <head>SECT. II.</head>
+               <item>OF Holy-days and Faſt-days. <hi>69</hi>
+               </item>
+            </list>
+            <list>
+               <head>CHAP. III.</head>
+               <item>OF prepartion to the Holy Sacra<g ref="char:EOLhyphen"/>ment. <hi>75</hi>
+               </item>
+               <item>Of Faſting. <hi>81</hi>
+               </item>
+               <item>A General Confeſſion of Sin. <hi>82</hi>
+               </item>
+               <item>Directions to be obſerved on the Day be<g ref="char:EOLhyphen"/>fore you receive. <hi>86</hi>
+               </item>
+               <item>A Prayer for Grace according to ſome foregoing Heads. <hi>88</hi>
+               </item>
+               <item>A ſhort Example of Applying the Commu<g ref="char:EOLhyphen"/>nion Service, the better to prevent the wandring of your Mind. <hi>92</hi>
+               </item>
+               <item>For what reaſon you are to kneel at the Sacrament. <hi>94</hi>
+               </item>
+               <pb facs="tcp:93768:4"/>
+               <item>Short Prayers according to ſome foregoing Rules. <hi>p. 99</hi>
+               </item>
+               <item>Of Behaviour at Baptiſm and Marriage. <hi>108</hi>
+               </item>
+            </list>
+            <list>
+               <head>CHAP. IV.</head>
+               <item>THE Country-man's Duty towards his Neighbour. <hi>110</hi>
+               </item>
+            </list>
+            <list>
+               <head>SECT. I.</head>
+               <item>HIS Duty to his Miniſter. <hi>ibid.</hi>
+               </item>
+               <item>Proper places of Scripture relating to that Duty. <hi>ibid.</hi>
+               </item>
+            </list>
+            <list>
+               <head>SECT. II.</head>
+               <item>D<g ref="char:V">Ʋ</g>ty to his Superiours. <hi>115</hi>
+               </item>
+               <item>Proper Texts relating to that Duty. <hi>116</hi>
+               </item>
+            </list>
+            <list>
+               <head>SECT. III.</head>
+               <item>HIS behaviour to his Landlord. <hi>121</hi>
+               </item>
+            </list>
+            <list>
+               <head>SECT IV.</head>
+               <item>HIS Duty to his Wife and Children, with proper Texts relating to that Subject. <hi>124</hi>
+               </item>
+               <item>His Duty to his Servants, with proper Texts. <hi>132</hi>
+               </item>
+               <pb facs="tcp:93768:5"/>
+               <item>His Duty to his Neighbours, with proper Texts. <hi>p. 139</hi>
+               </item>
+            </list>
+            <list>
+               <head>SECT. VII.</head>
+               <item>HIS Duty to the Poor, with proper Texts. <hi>145</hi>
+               </item>
+            </list>
+            <list>
+               <head>SECT. VIII.</head>
+               <item>OF juſt Dealing, with ſuitable Texts of Scripture. <hi>149</hi>
+               </item>
+            </list>
+            <list>
+               <head>SECT. IX.</head>
+               <item>THE Dames Duty to her Husband, with ſutable Texts refer'd to. <hi>152</hi>
+               </item>
+               <item>Meditations and Ejaculations proper for ſeveral Occaſions. As, <hi>158</hi>
+               </item>
+               <item>When you find your Cattel well, or have hopes of ſeaſonable Weather. Or,</item>
+               <item>When you find your Cattel ſick or dying, the Weather be unſeaſonable. <hi>159</hi>
+               </item>
+               <item>When you begin a new Work. <hi>160</hi>
+               </item>
+               <item>If you are ſick or in pain. <hi>161</hi>
+               </item>
+               <item>When you hear talk of Wars and Troubles in Church or State. <hi>161</hi>
+               </item>
+               <item>When you lye under any Temptations. <hi>ibid.</hi>
+               </item>
+               <item>Before you read the Holy Scripture. <hi>163</hi>
+               </item>
+               <pb facs="tcp:93768:5"/>
+               <item>When you ſow your Ground. <hi>164</hi>
+               </item>
+               <item>If you hear any People talk prophanely. <hi>166</hi>
+               </item>
+               <item>If you ſee any in a miſerable Condition. <hi>167</hi>
+               </item>
+               <item>If you find your ſelf inclined to diſcon<g ref="char:EOLhyphen"/>tent. <hi>168</hi>
+               </item>
+            </list>
+         </div>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>PAge 11. line 5. for <hi>own</hi> read <hi>one.</hi> p. 89. l. ult. r. <hi>from glory to glory.</hi> p. 90. l. 7. r. <hi>ſtraying.</hi> p. 99. l. 2. for <hi>cha<g ref="char:EOLhyphen"/>ſtening</hi> r. <hi>haſtening.</hi> p. 107. l. 11. after <hi>endeavour,</hi> add <hi>by.</hi> p. 124. l. 7. after <hi>encourage,</hi> add <hi>her.</hi> p. 126. l. 8. r. <hi>Immor<g ref="char:EOLhyphen"/>tal.</hi> p. 141. l. 16. for <hi>Houſe</hi> r. <hi>Horſe.</hi> p. 147. l. 3. for <hi>Bedding</hi> r. <hi>Begging.</hi>
+            </p>
+         </div>
+         <div type="publishers_note">
+            <pb facs="tcp:93768:6"/>
+            <head>
+               <hi>Several Books publiſhed by Dr.</hi> Richard Lucas <hi>Vicar of St.</hi> Stephen<hi>'s</hi> Colemanſtreet, <hi>and ſold by</hi> Sam. Smith <hi>at the</hi> Prince<hi>'s</hi> Arms <hi>in St.</hi> Paul<hi>'s Church-yard.</hi>
+            </head>
+            <p>DR. <hi>R. Lueas</hi>'s Practical Chriſtianity: Or, an Account of the Holineſ, which the Goſpel enjoyns, with Motives to it, and the Remedies it propoſes againſt Temptations, with a Prayer concluding <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ach diſtinct Duty, in <hi>Octavo,</hi> 1685. Price 3 <abbr>
+                  <hi>s.</hi>
+               </abbr> 6 <abbr>
+                  <hi>d.</hi>
+               </abbr>
+            </p>
+            <p>— Enquity after Happineſs, in ſeveral Parts, <hi>&amp;c.</hi> 1. In <hi>Octave,</hi> the ſecond Edition, Englarged, 1692. Pr. 3 <abbr>
+                  <hi>s.</hi>
+               </abbr> 6 <abbr>
+                  <hi>d.</hi>
+               </abbr>
+            </p>
+            <p>— The true Notion of Human Life: Or, A ſecond Part of the Enquiry after Happineſs, in <hi>Octavo,</hi> 1690. Pr. 2 <abbr>
+                  <hi>s.</hi>
+               </abbr> 6 <abbr>
+                  <hi>d.</hi>
+               </abbr>
+            </p>
+            <p>— The Duty of Apprentices and Servants. 1. The Pa<g ref="char:EOLhyphen"/>rents Duty how to Educate their Children that they may be fit to be employed and truſted. 2. What preparation is needful for ſuch as enter into Service, with ſome Rules to be obſerved by them how to make a wiſe and happy Choice of a Service. 3. Their Duty in Service towards God, their Maſter, and themſelves, with ſuitable Prayers to each Duty, and ſome directions peculiarly to Servants for the worthy receiving the Holy Sacrament, publiſhed for the benefit of Families, in <hi>Octavo,</hi> Price 1 <abbr>
+                  <hi>s.</hi>
+               </abbr> 6. <abbr>
+                  <hi>d.</hi>
+               </abbr>
+            </p>
+            <p>— A Sermon preached at the Funeral of Mr. <hi>Tho. Lamb, July</hi> 23 <abbr>
+                  <hi>d.</hi>
+               </abbr> 1686. in <hi>Quarto.</hi> Pr. 6 <abbr>
+                  <hi>d.</hi>
+               </abbr>
+            </p>
+            <p>— A Sermon preached at the Aſſizes held at <hi>Horſham,</hi> in the County of <hi>Suſſex, Aug.</hi> 23. 1691. Pr. 6 <abbr>
+                  <hi>d.</hi>
+               </abbr>
+            </p>
+            <p>— Chriſtian Thoughts for every day of the Month, with a Prayer, wherein is repreſented the Nature of unfeigned Repen<g ref="char:EOLhyphen"/>tance, and of perfect Love towards God, in <hi>Twelves.</hi> Pr. 1 <abbr>
+                  <hi>s.</hi>
+               </abbr>
+            </p>
+            <p>— The Plain Man's Guide to Heaven; containing firſt his Duty towards God, ſecondly towards his Neighbour, with pro<g ref="char:EOLhyphen"/>per Prayers, Meditations, and Ejaculations; deſigned chiefly for the Country-man, Trades-man, Labourer, and ſuch like, in <hi>Twelves,</hi> 1692. Pr. 1 <abbr>
+                  <hi>s.</hi>
+               </abbr>
+            </p>
+            <p>A Sermon conterning Publick Worſhip, preached before the Queen at <hi>Whiteball,</hi> on <hi>Wedneſday</hi> the 23d of <hi>March,</hi> 1692. By <hi>Thomas Manningham</hi> D.D. Chaplain in Ordinary to their Maje<g ref="char:EOLhyphen"/>ſties, and Rector of St. <hi>Andrew Holborn.</hi>
+            </p>
+            <p>A Sermon preached at the Conſecration of the Right Reverend Father in God, <hi>Thomas</hi> Lord Biſhop of <hi>Lincoln,</hi> In <hi>Lambeth</hi> Chap<g ref="char:EOLhyphen"/>pel, <hi>Jan.</hi> 10. 1692. By <hi>Willam Stanley,</hi> D. D. Clerk of the Cloſet to her Majeſty.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:93768:6"/>
+            <head>THE <hi>Plain Man's</hi> GUIDE TO HEAVEN.</head>
+            <div n="1" type="chapter">
+               <head>CHAP. I.</head>
+               <argument>
+                  <p>
+                     <hi>The Country-Man and Trades-Man's daily Duty and Devotion.</hi>
+                  </p>
+               </argument>
+               <p>I Will not here ſet down any Hour for your riſing, but ſuppoſe you allow no more time for ſleep then ſerves to pre<g ref="char:EOLhyphen"/>ſerve
+<pb n="2" facs="tcp:93768:7"/>your health, and refreſh your wearineſs, otherwiſe your Temporal, as well as Spiritual Du<g ref="char:EOLhyphen"/>ties, will be ill performed, and ſuffer great prejudice: Only con<g ref="char:EOLhyphen"/>ſider how to ſerve God firſt, and to that end forecaſt to riſe ſo ear<g ref="char:EOLhyphen"/>ly as to have time both for your ſelf and Family, to worſhip God before you begin your days work; and be aſſured that this loſs of ſleep ſhall neither hurt your health, nor on the other hand, be a hindrance to your Labours. So ſoon as you wake, and while you are riſing, entertain your ſelf with good thoughts; call to mind the mercies of God to you, your being kept in ſafety the paſt Night, and your Family, from ſudden Death, Fire, Robbers, and
+<pb n="3" facs="tcp:93768:7"/>the like: Think what Temptati<g ref="char:EOLhyphen"/>ons you may that day meet with, eſpecially to drinking, or over<g ref="char:EOLhyphen"/>reaching your Neighbour in buy<g ref="char:EOLhyphen"/>ing and ſelling, and arm your ſelf againſt them; and what opportu<g ref="char:EOLhyphen"/>nities of doing good; and encou<g ref="char:EOLhyphen"/>rage your ſelf to do it cheerfully out of obedience and love to God; who will certainly reward you for it, as well in this Life as that to come. As ſoon as you have put on your Clothes, kneel down and make your private Prayer to God, to thank him for his mercies, beg pardon for your ſins, with the continuance of his Grace and Pro<g ref="char:EOLhyphen"/>tection that day; which you may do in the following words, or what other you like better. But let not your inability to read, or any o<g ref="char:EOLhyphen"/>ther
+<pb n="4" facs="tcp:93768:8"/>conſideration cauſe the neglect of your worſhipping God,
+<note place="margin">Pſal. 5.3. Rom. 8.26, 27. Hebr. 7.25. Luk. 11.2. Chron. 29.30. Prov. 15.8. Mark 11.24. Pſal. 145.18, 19, 20. Acts 17.25. Hebr. 4.16. Prov. 28.13. John 1.1, 8, 9. Jer. 33.3. Pſal. 50.15. Numb. 22.4. Pſal. 92.2. Mark 2.35. Matth. 6.6. Pſal. 55.17. Dan. 6.10. Pſal. 10.19. &amp; 122.6. 1 Tim. 2.1, 2, 3. Theſſ. 3.1. E<g ref="char:EOLhyphen"/>pheſ. 4.2.</note> but the rather make you more di<g ref="char:EOLhyphen"/>ligent to ſeek In<g ref="char:EOLhyphen"/>ſtruction, that ſo you may be able to offer up your Pray<g ref="char:EOLhyphen"/>ers from an honeſt heart, truly ſorrowful for your ſins, with an ardent love to God, and a deſire to pleaſe him; and then he will except thoſe deſires, and par<g ref="char:EOLhyphen"/>don ſuch imperfections as are not wilful, or through negligence, al<g ref="char:EOLhyphen"/>ways ſaying the <hi>Lord's Prayer,</hi> which endeavour to underſtand in its fulleſt ſenſe, as you may learn from ſome good Catechiſm or Expoſition.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="prayer">
+                           <pb n="5" facs="tcp:93768:8"/>
+                           <head>A PRAYER to be uſed in private every Morning.</head>
+                           <p>
+                              <hi>ALmighty God, the Creator and Preſerver of Mankind, I wor<g ref="char:EOLhyphen"/>ſhip and adore thy incomprehenſible Majeſty, and deſire that my Soul may be always filled with a devout awe and reverence for thee. I ac<g ref="char:EOLhyphen"/>knowledge that 'tis thou only who cauſest me to dwell in ſafety. To thee alone I owe the ſupports and comforts of this Life, and the hopes of a better; for all which my Soul bleſſes thee. And I thank thee, O my God, that thou doſt cauſe the light of thy Sun to ariſe once more upon me, O grant me thy Grace, that I may ſo ſpend this day, that it may bring me comfort in the day of the Reſurrection. Pardon and deliver me
+<pb n="6" facs="tcp:93768:9"/>O merciful Father, from all my ſins, eſtabliſh and ſtrengthen my heart in thy Faith, Fear, and Love. Enable me to trust in thee, and re<g ref="char:EOLhyphen"/>ſign up my ſelf to thy holy will. Make me humble and contented, thankful and induſtrious in my Calling, dili<g ref="char:EOLhyphen"/>gent to inſtruct my Children and Family in the Knowledge of thee, and careful to be an Example to them of Obedience to thy Command<g ref="char:EOLhyphen"/>ments; guide and direct me in my way, bleſs and proſper the works of my hands, prevent and reſtrain me from all ſin this day, and give me, if it be thy will, a quiet Life, but above all a peaceful and comforta<g ref="char:EOLhyphen"/>ble Death, through Jeſus Chriſt our Lord.</hi>
+                           </p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <pb n="7" facs="tcp:93768:9"/>
+               <p>So ſoon as your Wife, Chil<g ref="char:EOLhyphen"/>dren, or what Family you have, is ready, call them together, and ſo often as you can poſſibly ſpare time, you will do very well to read,
+<note place="margin">Joh. 5.36. Rev. 1.3. 2 Tim. 3.15, 16. Gen. 18.19. Joſh. 24.1. Acts 10.2. Matth. 11.2.</note> or cauſe to be read a Chapter. Chooſe thoſe Chapters to be read often<g ref="char:EOLhyphen"/>eſt that are eaſie to be underſtood, and moſt practical; then ſtand up and ſay the Creed, which is the Sum of a Chriſtian's Faith: Then all kneeling down, adore and worſhip God in theſe or the like words, as you beſt approve.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="prayer">
+                           <pb n="8" facs="tcp:93768:10"/>
+                           <head>A Morning Family PRAYER.</head>
+                           <p>O <hi>Gracious God and merciful Father, we bleſs thee that thou haſt refreſhed and preſerved us this laſt Night, and thereby fit<g ref="char:EOLhyphen"/>ted us for the labour and ſervice of this day; 'tis of thy goodneſs, O Lord, 'tis of thy goodneſs that we are on this ſide the Grave, and that the bottomleſs Pit has not cloſed her mouth upon us; for we acknowledge that we have often ſinned against thee, &amp; provoked thee, either through ſottiſh ignorance or preſumption, or through neglect or contempt of thy Words and Commandments; the Ox knows his owner, and the Aſs his Maſter's Crib, but we have for<g ref="char:EOLhyphen"/>got thee, and been unthankful to
+<pb n="9" facs="tcp:93768:10"/>thee, and in many things have a<g ref="char:EOLhyphen"/>cted as though we knew thee not, nor conſidered thy goodneſs and the works of thy hands; O pardon par<g ref="char:EOLhyphen"/>don us, thou who delighteſt not in the death, but converſion of ſinners; pardon us, thou who haſt given thy Son to be a Propitiation for our ſins, and ſow in our hearts, we beſeech thee, the Seed of everlaſting life, and grant that whatſoever we learn from thy word to be our duty, we may carefully and diligently fulfil; keep us this day from the commiſſi<g ref="char:EOLhyphen"/>on of any thing that may wound our Conſciences, wrong others, or provoke thee: Bleſs the Children of this Family, granting that they may grow up in thy fear, increaſing in wiſdom, and ſtature, and in favour with God and Man. Teach every
+<pb n="10" facs="tcp:93768:11"/>Member of this Family to do their duty humbly and cheerfully, as out of Conſcience towards God, from whom they ſhall receive their Re<g ref="char:EOLhyphen"/>ward. Let Peace and Charity rule our hearts, let thy Providence pro<g ref="char:EOLhyphen"/>tect and provide for us; and when thou haſt carried us through the la<g ref="char:EOLhyphen"/>bours, hardſhips, and temptations of this life, bring us into the reſt and glory of a better, through Jeſus Chriſt our Lord.</hi>
+                           </p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>Take care that both your pri<g ref="char:EOLhyphen"/>vate and family Devotion be per<g ref="char:EOLhyphen"/>formed with reverence and affe<g ref="char:EOLhyphen"/>ction, not in a formal careleſs man<g ref="char:EOLhyphen"/>ner; Do not grudge the time you give to God, for he can and will repay you; nor think it longer then it is. The Devotion here preſcri<g ref="char:EOLhyphen"/>bed
+<pb n="11" facs="tcp:93768:11"/>both publick and private, will not take up half an hour. You or your Wife muſt alſo take care that your Children muſt ſay eve<g ref="char:EOLhyphen"/>ry own their Prayers, which you muſt teach them early. When they can ſay the words of ſome ſhort Prayer, inſtruct them in the meaning of it; the ſame do for thoſe Servants that are ignorant. For others, put them in mind of their Duty, and encourage them in doing it. This done, cheerful<g ref="char:EOLhyphen"/>ly begin your days labour, every one imploying themſelves in what belongs to their places; which the more diligent they are in, the more acceptable it will be to God.
+<note place="margin">1 Theſſ. 4.11, 12. 2 Theſſ. 3.11, 12. Prov. 18.19. &amp; 21.17. &amp; 28.19. &amp; 6.9, 10, 11. Epheſ. 4.28.</note> At the beginning of your Work, dedicate it to God in
+<pb n="12" facs="tcp:93768:12"/>ſome ſuch Ejaculation as this: — <hi>O Lord, thy moſt wiſe Providence has placed me in this ſtate, to eat my bread in the ſwet of my brows; I be<g ref="char:EOLhyphen"/>lieve it is beſt for me, becauſe it is thy will, for thou art a loving Fa<g ref="char:EOLhyphen"/>ther to all that obey thee, and wilt do what is beſt for them: I ſubmit to thy good pleaſure, deſiring thou ſhouldſt chooſe for me. I rejoyce in my Labour, and that I have health and limbs to perform it; I will be as diligent, and do it as I am able, in all things endeavouring perfecti<g ref="char:EOLhyphen"/>on; for in ſo doing, I am faithful to my Calling, and ſhall beſt pleaſe thee, and advance my own happi<g ref="char:EOLhyphen"/>neſs. I deſire to do all things for the love of my God, and in obedi<g ref="char:EOLhyphen"/>ence to thy Commands: I dedicate all to thy glory, which ought to be
+<pb n="13" facs="tcp:93768:12"/>the end of all I do.</hi> Or you may meditate on the Example of Chriſt, who ſubmitted to work at a mean Trade: <hi>Shall I not rather ſubmit to his Will, and rejoyce in his Diſpenſation, and do my duty cheerfully, and as perfectly as I can for his Honour. O Lord Jeſus, let the Merit of thy Humiliation ſanctifie my labour, and ſuffer not the buſineſs of my hands to indiſpoſe my heart for the acts of thy Wor<g ref="char:EOLhyphen"/>ſhip and Service; ſuffer me not to indulge my Body by eaſe and ſloth<g ref="char:EOLhyphen"/>fulneſs, but uſe that ſtrength and health thou haſt given me to thy glory, and honeſt proviſion for my Family.</hi>
+               </p>
+               <p>You may alſo ſome times ſing ſuch <hi>Pſalms</hi> as you have by heart, or entertain your ſelf with any
+<pb n="14" facs="tcp:93768:13"/>other pious thoughts; or if you work with your Servants or Chil<g ref="char:EOLhyphen"/>dren, or honeſt Neighbours, put them on ſinging <hi>Pſalms,</hi> or ſome good Diſcourſe, to encourage one the other in the Service of Almighty God. Would you but be perſwaded to try this method with devout and honeſt Minds, you cannot imagine how it would ſweeten your Labour, making you cheerful and content, though poor, and God would comfort and di<g ref="char:EOLhyphen"/>rect you with his holy Spirit, whoſe delight is in the Man of an humble heart. And thus to have all Places ſound with God's praiſe, would make a ſort of Heaven on Earth, and fit us for the Employ<g ref="char:EOLhyphen"/>ment of Heaven it ſelf.</p>
+               <p>Beſides, It will much farther
+<pb n="15" facs="tcp:93768:13"/>your labour; for when one that has no farther aim then profit and pleaſure, is tempted to murmur at every diſappointment, and ſeeks for diverſion in riotous Company and merry Meetings, which inſtead of mending his Con<g ref="char:EOLhyphen"/>dition, makes it worſe, the ho<g ref="char:EOLhyphen"/>neſt poor Man's deſign in his la<g ref="char:EOLhyphen"/>bour is to pleaſe God; he works in obedience to his Commands, and ſo endures patiently all the inconveniency of cold and heat, wearineſs and pain, with humble ſubmiſſion to his Providence, of<g ref="char:EOLhyphen"/>fers his Sufferings to God, as en<g ref="char:EOLhyphen"/>dured for his ſake; for though they are not altogether volunta<g ref="char:EOLhyphen"/>ry, certainly it is more acceptable cheerfully and willingly to ſubmit to thoſe Troubles allotted us by
+<pb n="16" facs="tcp:93768:14"/>God, then enduring any other of our own chooſing; for a poor Man works to pay his Rent, be<g ref="char:EOLhyphen"/>cauſe it is juſt, and he has promi<g ref="char:EOLhyphen"/>ſed ſo to do: He looks on his Wife and Children, or Servants, as thoſe for whom he is obliged to take care, in obedience to God, as well as by the ties of Nature, and is the more careful that he may by his Induſtry gain time both for himſelf and them to ſerve God, and be better able to breed his Children to reading, or ſuch other learning as is neceſ<g ref="char:EOLhyphen"/>ſary for thoſe honeſt Imploy<g ref="char:EOLhyphen"/>ments he deſigns them for.</p>
+               <p>Theſe, and the like Conſidera<g ref="char:EOLhyphen"/>tions, are ſufficient to make a good Man cheerful and diligent in his Labour: I am ſure they
+<pb n="17" facs="tcp:93768:14"/>are much more powerful than any that either Covetouſneſs or Pride can produce; and if all the honeſt Man's pains does not ſucceed as to the World, it is only for the trial of his Patience, and ſubmiſſion to God, which will be rewarded a thouſand fold in heavenly glory, and it may be to his Poſterity in the world after his Deceaſe.</p>
+               <p>When you come home to Dinner,
+<note place="margin">1 Tim. 4.4 5. 1. Cor. 10.13. Col. 3.17. Eccleſ. 10.17. 1 Cor, 9.27. Prov. 23.20, 21. Luke 21.34.</note> with reve<g ref="char:EOLhyphen"/>rence ſay Grace, and eat your Meat with a cheerful, thankful heart, conſidering your own unworthineſs of the leaſt of God's Mercies, and his bounty in ſupplying your Neceſſities. Be not intemperate in your Meat and Drink, but uſe both to ſupport
+<pb n="18" facs="tcp:93768:15"/>your health and ſtrength, not to impair them. If you have Chil<g ref="char:EOLhyphen"/>dren, let one of them read a Chapter or Pſalm, and the next day another Child, every one ta<g ref="char:EOLhyphen"/>king their turns; this will take up ſo little time, that it can be no ways inconvenient, and it is only want of love to Piety that can occaſion their not doing it; for beſides that, you will keep your Childrens reading, and ſee how they improve. It will in<g ref="char:EOLhyphen"/>creaſe both your and their Know<g ref="char:EOLhyphen"/>ledge in the Scrip<g ref="char:EOLhyphen"/>ture,
+<note place="margin">Of ſinging Pſalms. Epheſ 5.18, 19. Col. 3.16. Jam. 5.13 Pſal. 119.97. Matth. 12.35. &amp; 15.19, 20. Pſal. 119.59.</note> which you muſt above all things attend and obſerve, as con<g ref="char:EOLhyphen"/>taining the whole Will of God, both what you are to believe and
+<pb n="19" facs="tcp:93768:15"/>do, and what you are to avoid, and by which you muſt be judg<g ref="char:EOLhyphen"/>ed at the laſt day.</p>
+               <p>When Dinner is done, return Thanks with Devotion, and a ſenſe that all you have is from the gift of God; go to your Labour as in the Morning, and ſupport your ſelf in it by ſinging Pſalms, good Thoughts, Meditations, and the like. Neither would I by a<g ref="char:EOLhyphen"/>ny means be underſtood to for<g ref="char:EOLhyphen"/>bid innocent and cheerful Diſ<g ref="char:EOLhyphen"/>courſe, nor what is uſeful to your Buſineſs; for the Service of God was not deſigned to be our bur<g ref="char:EOLhyphen"/>then, but for our comfort and ſupport in all Conditions. In the Evening, or ſome time be<g ref="char:EOLhyphen"/>fore you go to bed, be ſure to forecaſt time for your Devotion
+<pb n="20" facs="tcp:93768:16"/>your Family, reading a Chapter in the Bible, or ſmall part of a Catechiſm, with its Explication; then ſay a ſhort Prayer, this that follows, or what you like bet<g ref="char:EOLhyphen"/>ter.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="prayer">
+                           <head>An Evening Family PRAYER.</head>
+                           <p>O Almighty God, the Fa<g ref="char:EOLhyphen"/>ther of Mercies, and the Fountain of all good Gifts, for from thee we receive all Tem<g ref="char:EOLhyphen"/>poral and Spiritual Bleſſings; we bleſs and praiſe thy Name, that thou haſt afforded us health and ſtrength and underſtanding, to diſcharge the labours and hard<g ref="char:EOLhyphen"/>ſhips of our worldly Callings this day; and much more for
+<pb n="21" facs="tcp:93768:16"/>whatever means or meaſures of Grace thou haſt vouchſafed us to enable us to do the duties of our Chriſtian Calling. It is of thee that we have been preſer<g ref="char:EOLhyphen"/>ved from Sickneſs, and Death, and Diſaſters; 'tis from thy re<g ref="char:EOLhyphen"/>ſtraining Grace that we have been kept back from preſump<g ref="char:EOLhyphen"/>tuous Wickedneſs, and 'tis from the aſſiſtance of thy Grace that we have thought or done any good thing: O be pleaſed to continue to us the Mercies we enjoy, and confer upon us what<g ref="char:EOLhyphen"/>ſoever thou doſt ſee us want; enable us to perſevere to our lives end with patience, humility, and thankfulneſs in the condition of life to which thou doſt call us, and to paſs the time of our ſo<g ref="char:EOLhyphen"/>journing
+<pb n="22" facs="tcp:93768:17"/>here in fear, calling up<g ref="char:EOLhyphen"/>on thee daily, O holy Father, who without reſpect of Perſons wilt judge every Man accord<g ref="char:EOLhyphen"/>ing to his works. We every day are a day nearer to Death and Judgment, grant, O Lord, that by an impartial Examina<g ref="char:EOLhyphen"/>tion of our ſelves, and by a ſin<g ref="char:EOLhyphen"/>cere endeavour of reforming what is amiſs, and perfecting what is begun in us, we may be daily the fitter for both, that we may come finally to that eternal Reſt, where not only all the labours and travels of the Bo<g ref="char:EOLhyphen"/>dy will be at an end, but thoſe alſo of the Soul, and we ſhall need watch and contend no more; 'till when let thy Pro<g ref="char:EOLhyphen"/>vidence, O Lord, watch over
+<pb n="23" facs="tcp:93768:17"/>us, and thy Grace preſerve and aſſiſt us, that we may paſs this night, and the remaining part of our lives, in Vertue and Safe<g ref="char:EOLhyphen"/>ty, in Peace, Contentment, and if thou think fit, Proſperity, but if thou think fit otherwiſe, ſo prepare and ſtrengthen our hearts to endure whatever thou ſhalt lay upon us, that the trial of our Faith may be to praiſe, and honour, and glory in the day of our Lord Jeſus, through whom we put up theſe our Re<g ref="char:EOLhyphen"/>queſts to thee, beſeeching thee to accept our Praiſes, and anſwer our Petitions, through thy dear Son, and our dear Mediator, Chriſt Jeſus.</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <pb n="24" facs="tcp:93768:18"/>
+               <p>You muſt not excuſe this by your wearineſs, for it is a greater Duty then to be omitted for any worldly conſideration; but if you are not well, or very weary, only ſay the Prayer, which is ſo ſhort that no one can neglect for any other cauſe but a carnal heart. Before you ſleep examine how you have ſpent the paſt day, re<g ref="char:EOLhyphen"/>call as well as you can what ſin or infirmity you have been guilty of, what duty you have left un<g ref="char:EOLhyphen"/>done? what mercies you have re<g ref="char:EOLhyphen"/>ceived, Spiritual or Temporal; or what Corrections? For your bet<g ref="char:EOLhyphen"/>ter direction, ſome times read o<g ref="char:EOLhyphen"/>ver the following Example.</p>
+               <p>I begin with the Morning,
+<note place="margin">Of Examination. Prov. 4.26. Eph. 5.15. Luke 2.36. Pſal. 4.8. Gen. 24.63.</note> and con<g ref="char:EOLhyphen"/>ſider how I per<g ref="char:EOLhyphen"/>formed
+<pb n="25" facs="tcp:93768:18"/>my Morning Service; if I neglected my part of it out of careleſneſs, or want of delight in God's Service; if in my worldly buſineſs I was not provoked to outragious Anger to any of my Family: Did I not ſwear, curſe or take God's Name in vain? Did I not omit to reprove ſin in my Children or Servants; or have I not omitted any neigh<g ref="char:EOLhyphen"/>bourly Office that might have done me no great harm, and my Neighbour good? Have I been ſurly or moroſe to any? have I been merciful to the Poor accord<g ref="char:EOLhyphen"/>ing to my Ability, at leaſt given them good words, if I had not wherewithal to relieve them? Have I been ready to hear or ſpeak of good things when I have
+<pb n="26" facs="tcp:93768:19"/>had opportunity? Have I been thankful for any good ſucceſs gi<g ref="char:EOLhyphen"/>ven in my buſineſs, give God the glory, and attribute it to his bleſ<g ref="char:EOLhyphen"/>ſing? have I patiently ſubmitted if I have had loſs, and owned it to be the juſt deſert of my ſin, begging God to give me grace to be con<g ref="char:EOLhyphen"/>tent, and to ſanctifie his Correcti<g ref="char:EOLhyphen"/>ons to me? Have I been true and juſt in my dealing, buying and ſelling; deſiring only an honeſt gain, and that by words of truth? Have I not oppreſſed my Servant or Hireling in their wages? have I made good my bargain, allow<g ref="char:EOLhyphen"/>ing a reaſonable hire? have I not to gain a ſmall matter to my ſelf cauſed a great loſs to my Neigh<g ref="char:EOLhyphen"/>bour? by Law Suits, Quarrels, or the like. Have I ſpent my time
+<pb n="27" facs="tcp:93768:19"/>and mony in exceſs of drinking, or tempted others to the like? Have I ſlandered my Neighbour, or car<g ref="char:EOLhyphen"/>ried ſtories from one to the o<g ref="char:EOLhyphen"/>ther to cauſe differences?</p>
+               <p>Theſe and the like Queſtions you may put to your ſelf, recol<g ref="char:EOLhyphen"/>lecting all the day, and as you went from one thing to another, ſo you will eaſily diſcover your faults; and the better you grow, and the more you read the Word of God, and other good Books, the better you will do this uſeful Duty. But you muſt conſider the end of Self-Examination is not only to know your faults, but to mend them: as for Example; If you find you were to day guilty of a great Paſſion, to be more careful to morrow not to give
+<pb n="28" facs="tcp:93768:20"/>way to it, to be more ſilent, and take care to prevent thoſe faults in your Children or Servants that were the cauſe of your Anger, ne<g ref="char:EOLhyphen"/>ver to reprove when you find you are in a Paſſion; to conſider your own faults, and God's pati<g ref="char:EOLhyphen"/>ence with you; pray for Patience, <hi>&amp;c.</hi> If you loſt your time, or drank too much, to avoid thoſe People that tempted you, and thoſe Houſes. If you ſpoke ill of, or ſlandered your Neighbours, to unſay it to the ſame People you ſlandered them to. Be care<g ref="char:EOLhyphen"/>ful to ſpeak the good, and let the reſt alone. If you have wronged any to make reſtitution. Thus undoing what is ill done, if you can, and purpoſing by the grace of God, to be no more wilfully
+<pb n="29" facs="tcp:93768:20"/>guilty of the like. This Exami<g ref="char:EOLhyphen"/>nation you may make at what time in the Evening you find moſt convenient, or at your evening labour, if your work is ſuch as will give you leave to think.</p>
+               <p>Before you ſleep, humbly and earneſtly beg pardon for your ſins, and greater grace for the future. Thank God for all his Mercies, eſpecially being kept from ſin, and enabled to do any good.—This method of daily Examination is uſeful for your Temporal as well as Spiritual Eſtate; that ſo con<g ref="char:EOLhyphen"/>ſidering the Errours of every day, what is amiſs one day may be mended the next; and where a<g ref="char:EOLhyphen"/>ny good opportunity has been neglected, to be more careful a<g ref="char:EOLhyphen"/>nother time; ſo will you do more
+<pb n="30" facs="tcp:93768:21"/>good and leſs evil, and grow wi<g ref="char:EOLhyphen"/>ſer both for your Soul and Body.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="prayer">
+                           <head>An Evening Private PRAYER, if upon Examination you find your ſelf guilty, <hi>&amp;c.</hi>
+                           </head>
+                           <p>O Eternal God who haſt crea<g ref="char:EOLhyphen"/>ted me to glorifie and ſerve thee, and has prepared eternal hap<g ref="char:EOLhyphen"/>pineſs and glory to crown and re<g ref="char:EOLhyphen"/>ward this my Service, with what Love, with what Zeal, ought I dai<g ref="char:EOLhyphen"/>ly to do thy will; with what meek<g ref="char:EOLhyphen"/>neſs and patience ſubmit to it. But ah wretch that I am! how far ſhort of both have I fallen this day: the fear of thee has not aw'd me, nor has the love of thee moved me, nor thy great and pre<g ref="char:EOLhyphen"/>cious
+<pb n="31" facs="tcp:93768:21"/>promiſes prevailed upon me, but I have broke through all to gratifie my own vile affections. Ah how have I wandered from the paths of Truth and Life; <hi>[here repeat the ſins of the day paſt]</hi> And now O holy and juſt God, what ſhall I ſay unto thee; ſhall I lye down in my wickedneſs, and ei<g ref="char:EOLhyphen"/>ther through deſpair of thy mer<g ref="char:EOLhyphen"/>cy, or preſumption upon it, con<g ref="char:EOLhyphen"/>tinue to commit it? Ah no! for then if Death ſurprize me, and what reaſon have I to fear it may, I muſt be miſerable for ever; e<g ref="char:EOLhyphen"/>verlaſting remorſe of Conſcience, and everlaſting burnings in the company of Devils muſt be my portion for ever; therefore, O God, thou God of mercy, I come to thee though aſhamed and con<g ref="char:EOLhyphen"/>founded,
+<pb n="32" facs="tcp:93768:22"/>though my guilt will not ſuffer me to look up towards thee, I come to weep, to condemn my ſelf before thee: O hear me, thou that delighteſt not in the death, but the converſion of a ſinner; O hear me thou that haſt given thine own Son to be a Propitiation for our ſins; O thou that delighteſt to hear Prayers and forgive the Penitent, have mercy upon me, pardon and deliver me from my ſins, make me a clean heart, and renew a right ſpirit within me, and O never ſuffer me to be at reſt 'till I have ſubdued my corruptions, and rooted out every habitual ſin; 'till I feel the power of Religion in, and change of my heart and reformation of my life, and find the Kingdom of
+<pb n="33" facs="tcp:93768:22"/>Heaven eſtabliſhed within me in righteouſneſs and peace, and joy in the Holy Ghoſt. And here, O my God, I once more dedicate my ſelf to thee, and vow a per<g ref="char:EOLhyphen"/>petual War againſt thoſe Luſts by which I have been thus wretch<g ref="char:EOLhyphen"/>edly miſled and betrayed into the paths of darkneſs and death. <hi>[Here particularly reſolve againſt that ſin or ſins which thou haſt been guilty of the day paſt, or finds thy ſelf moſt prone too.]</hi> And thou, O God, by whoſe mighty power the blind received their ſight, the lame walked, the Lepers were cleanſed, and the dead raiſed; O thou who didſt call &amp; quicken by thy grace the <hi>Gentiles</hi> when dead in treſpaſſes and ſins, vouchſafe me the aſſiſtance of the ſame Spi<g ref="char:EOLhyphen"/>rit
+<pb n="34" facs="tcp:93768:23"/>that I may continue ſtedfaſt and unmovable in theſe Reſolu<g ref="char:EOLhyphen"/>tions, and abound more and more in the works of God, through Jeſus Chriſt our Lord.</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="prayer">
+                           <head>An Evening private Prayer, when upon Examination of the paſt day, your Conſcience acquits you from wilful wickedneſs.</head>
+                           <p>O Gracious God and heavenly Father, I thy poor Servant, frail of my ſelf, and lying open to many Temptations, do bleſs and praiſe thy Name, that thou haſt preſerved me this day from pre<g ref="char:EOLhyphen"/>ſumptuous ſin, beſeeching thee to blot out the remembrance of whatever has formerly diſpleaſed
+<pb n="35" facs="tcp:93768:23"/>thee in my life paſt, and pardon the defects and infirmities of my preſent ſtate, ſtrengthen my faith, increaſe my hope, and let my breaſt be more and more inflam'd with a Divine love; and O may my love abound more and more in knowledge, and in all judg<g ref="char:EOLhyphen"/>ment, that I may approve the things that are excellent, and may be ſincere and without offence 'till the day of Chriſt, being filled with all the fruits of Righteouſ<g ref="char:EOLhyphen"/>neſs through Jeſus Chriſt, unto the praiſe and glory of thee my God. Preſerve and bleſs me in my ho<g ref="char:EOLhyphen"/>neſt Labours, let me never want things neceſſary for me and mine, nor moderation, humility and thankfulneſs in the uſe of them: Keep me in ſafety, and refreſh
+<pb n="36" facs="tcp:93768:24"/>me with ſleep this night, and when I awake let my thoughts be upon thee, and upon the happineſs of thoſe that fear thee, and truſt in thee, ſo ſhall I abide in thy love unto my lives end, and be at laſt carried from this ſtate of labour, and watchfulneſs, and trial, into one of peace, and ſecurity, and triumph; which grant, O merciful Father, for thy dear Son's ſake, <hi>Amen, Amen.</hi>
+                           </p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>And ſo much for your daily Devotion, where for the circum<g ref="char:EOLhyphen"/>ſtances of Time and Perſons, you may alter what agrees not with your condition and buſineſs, if ſo be you are careful, not to wholly omit the Duties of Fami<g ref="char:EOLhyphen"/>ly and private Prayer, which you
+<pb n="37" facs="tcp:93768:24"/>are as a Chriſtian obliged to, and is the ſureſt way to make you happy here and hereafter.</p>
+               <div n="1" type="section">
+                  <head>SECT. I.</head>
+                  <argument>
+                     <p>
+                        <hi>Of the Lords Day.</hi>
+                     </p>
+                  </argument>
+                  <p>FOR your profitable Obſer<g ref="char:EOLhyphen"/>vation and hollowing the Lord's Day,
+<note place="margin">Exod. 28.8, 9, 10, 11. Neh. 13.19. Iſa. 50.13. Acts. 27.7. &amp; 20.7. 1 Cor. 16. Rev. 1.10. Pſal. 118 24. E<g ref="char:EOLhyphen"/>zek. 23.38. Amos 8.4.</note> it will be of great uſe ſo to contrive your Affairs on <hi>Saturday;</hi> that you may have as little as poſſible of them to perform on the Lord's Day.</p>
+               </div>
+            </div>
+            <div n="2" type="chapter">
+               <pb n="38" facs="tcp:93768:25"/>
+               <head>CHAP. II.</head>
+               <argument>
+                  <p>
+                     <hi>A Morning Prayer for the Lord's Day.</hi>
+                  </p>
+               </argument>
+               <p>WE adore and worſhip thee O God, the Creator of Heaven and Earth, for thou ſpeak<g ref="char:EOLhyphen"/>eſt the word and all things were made, thou commandedſt and they were created, in thee we live and move and have our being, and when thou pleaſeſt we die and return again unto our duſt; bleſ<g ref="char:EOLhyphen"/>ſed be thy Name that thou haſt made us rational Creatures, and haſt continued us in the Land of the living to this day; and bleſſed be thou the God of Hope, becauſe thou haſt ſo loved the World, when
+<pb n="39" facs="tcp:93768:25"/>dead in treſpaſſes and ſins, and in a ſtate of enmity againſt thee, that thou gaveſt thy only begotten Son, to the end that all that be<g ref="char:EOLhyphen"/>lieve in him ſhould not periſh, but have everlaſting life, Lord we be<g ref="char:EOLhyphen"/>lieve, help thou our unbelief; we believe that Jeſus is the Chriſt, the Son of God; we believe that the words he ſpoke are the words of everlaſting Life; we believe that he died for our ſins, that we might eſcape the wrath due to them; we believe that he roſe again for our juſtification, that he might be a Prince and Saviour to all thoſe who believe and obey him: And now, O Lord, let this Faith we beſeech thee, have its due influ<g ref="char:EOLhyphen"/>ence upon our hearts and lives, that the grace of God which bring<g ref="char:EOLhyphen"/>eth
+<pb n="40" facs="tcp:93768:26"/>Salvation, and hath appeared unto all men, teach us to deny ungodlineſs and worldy Luſts, and to live righteouſly, ſoberly, and godlily in this preſent world, look<g ref="char:EOLhyphen"/>ing for the bleſſed hope and glo<g ref="char:EOLhyphen"/>rious appearance of the great God and our Saviour Chriſt Jeſus. Par<g ref="char:EOLhyphen"/>ticularly aſſiſt us, we beſeech thee, in the duties of the day, that we may offer up unto thee pure and fervent Prayers, and praiſe thee with unſpeakable joy and grati<g ref="char:EOLhyphen"/>tude. Make us to hear thy Word with a holy fear and devout thirſt, and grant that we may be not only hearers, but doers of thy Word, that ſo being quickned by thy Word and Spirit, we may be cleanſed from our guilt by the Blood of Jeſus, and be made par<g ref="char:EOLhyphen"/>takers
+<pb n="41" facs="tcp:93768:26"/>of his Reſurrection and Kingdom, through the ſame our dear Lord and Saviour. <hi>Amen.</hi>
+               </p>
+               <p>After your Morning Prayer, ſuch buſineſs as can't be diſpenſed with, as milking and ordering of Cattel, muſt be done, but no more; at which Imployments you may ſing Pſalms, have good thoughts, or diſcourſe with thoſe with you. After which let all get ready for Church; and if any ſpare time remains, read ſome good Book; but be ſure ſo to order your De<g ref="char:EOLhyphen"/>votion and neceſſary Affairs, as to be at Church at the beginning of Prayers. As you go think of the great Priviledge and Mercy you enjoy in being admitted to the Houſe of God to pray and hear
+<pb n="42" facs="tcp:93768:27"/>his holy Law, and the particular bleſſings of living in a Nation where God's Word is freely di<g ref="char:EOLhyphen"/>ſpenſed to all; think what a ſad aggravation of your Fault it will be if you reſiſt or neglect ſuch great Advantages; but let not the ſenſe of your unworthineſs tempt you to deſpair or negli<g ref="char:EOLhyphen"/>gence, but rather to love and ad<g ref="char:EOLhyphen"/>mire the long Sufferance of God, and to reſolve to improve better theſe means of grace. Enter the Church with reverence and gra<g ref="char:EOLhyphen"/>vity; it is the Houſe of Prayer, make it not a Den of Thieves by ſinful thoughts and hypocritical Deſigns; nor yet a Houſe of Merchandize; by thinking or talk<g ref="char:EOLhyphen"/>ing of worldly Affairs; but ſo ſoon as you come to your Seat, make
+<pb n="43" facs="tcp:93768:27"/>an humble Prayer to God for at<g ref="char:EOLhyphen"/>tention and zeal, grace to know and do his will, a pure unpreju<g ref="char:EOLhyphen"/>diced mind, to apprehend and hold faſt the Truth. Pray for a bleſſing on the Miniſter then pre<g ref="char:EOLhyphen"/>ſent, and all other faithful Di<g ref="char:EOLhyphen"/>ſpenſers of the Word and Sacra<g ref="char:EOLhyphen"/>ments throughout the World, that they may be ſucceſsful La<g ref="char:EOLhyphen"/>bourers in God's Vineyard, and convince and convert many from their ſins, and build up all through Faith unto Salvation, that the Word may be Seed ſown in good ground, bringing forth Fruit a<g ref="char:EOLhyphen"/>bundantly to the glory of God. Pray alſo againſt wandring thoughts and drowſineſs: finally deſire the union of your Prayers with all Chriſtians, and that the
+<pb n="44" facs="tcp:93768:28"/>Interceſſions of the Univerſal Church, ſent up in the Name of its common Redeemer, may by him be preſented acceptably to God, and obtain for it all good things, notwithſtanding the ble<g ref="char:EOLhyphen"/>miſhes, imperfections and miſtakes of its particular Members.</p>
+               <p>Theſe or the like Petitions you may uſe as time permits, till the Miniſter begins; then ſtanding up,
+<note place="margin">Of Publick Prayer. Matth. 18.20. Iſa. 56.7. Luk. 2.37. Ioel 2.15, 16, 17. Hebr. 10.24, 35.</note> apply thoſe Texts of Scripture that are read to your ſelf. To be a<g ref="char:EOLhyphen"/>ble to do this the better, read them over at home to conſider them: then attend to the Exhor<g ref="char:EOLhyphen"/>tation, which is to inform you of your Obligation to the Worſhip of God by holy Scripture, the end
+<pb n="45" facs="tcp:93768:28"/>and benefit of it, and manner how you ſhould perform it, with a tru<g ref="char:EOLhyphen"/>ly penitent heart; and therefore with ſeriouſneſs apply it to your ſelf, and do not hear it as words of courſe which you are not con<g ref="char:EOLhyphen"/>cerned in, gazing about as too many do: but being compoſed and recollected, as in the Preſence of God, with bended knees and a contrite heart, ſenſible of your great unworthineſs, make the fol<g ref="char:EOLhyphen"/>lowing Confeſſion; next comes the Abſolution. To hear this with profit, you muſt firſt under<g ref="char:EOLhyphen"/>ſtand the meaning of it; it is a ſhort Declaration of God's Mercy and Pardon to penitent ſinners; that is, to thoſe who being truly penitent of their ſins, are heartily ſorry they have committed them,
+<pb n="46" facs="tcp:93768:29"/>and reſolve by the aſſiſing grace of God, never more wilfully to do the like. As for Example:</p>
+               <p>
+                  <hi>Almighty God;</hi>] Theſe words ſets forth God's infinite Power and Ability to Pardon. <hi>The Father of our Lord Jeſus Chriſt, who de<g ref="char:EOLhyphen"/>ſireth not the death of a ſinner:</hi>] This ſhews God's infinite good<g ref="char:EOLhyphen"/>neſs and willingneſs to pardon, ſince he ſpared not his own Son, will he not with him freely give us all things. <hi>But rather that he may turn from his wickedneſs and live.</hi>] Here follows the conditi<g ref="char:EOLhyphen"/>ons, you muſt turn from your wickedneſs before you have any right to the Promiſe of Life; and though God had much rather you ſhould repent and live, being de<g ref="char:EOLhyphen"/>ſirous that none ſhould periſh, but
+<pb n="47" facs="tcp:93768:29"/>that all ſhould come to Repen<g ref="char:EOLhyphen"/>tance; yet here is no encourage<g ref="char:EOLhyphen"/>ment to hope for any that lead wicked lives, but to the Penitent, that is, ſuch as to the utmoſt of their power ſincerely endeavour to obey God's Commands, and to avoid what he forbids, doing their Duty as well as they are able, yet truſts not to any merit thereby; but being ſenſible of the weakneſs of their beſt performance, expect Mercy and Eternal Life, as the free gift of God, for the ſake and merit of Chriſt Jeſus only to ſuch Penitents. <hi>God has given power and commandment to his Miniſters, to declare and pronounce to his Peo<g ref="char:EOLhyphen"/>ple, being penitent, the abſolution and remiſſion of their ſins.</hi>] Which is no other then declaring the
+<pb n="48" facs="tcp:93768:30"/>terms ſet forth in the Goſpel more largely; for the Miniſter only declares on what Conditions we may be pardoned by Almigh<g ref="char:EOLhyphen"/>ty God, but does not by this Ab<g ref="char:EOLhyphen"/>ſolution pardon any who do not perform the Conditions. <hi>He par<g ref="char:EOLhyphen"/>doneth and abſolveth all them that truly repent.</hi>] Where obſerve the Miniſter does not ſay, <hi>I pardon,</hi> but <hi>he pardoneth,</hi> that is, God; and that only thoſe that truly re<g ref="char:EOLhyphen"/>pent, that is, confeſs and forſake their paſt ſins; for without a<g ref="char:EOLhyphen"/>mendment Repentance will not profit, ſo that no one can with comfort apply this Abſolution, that indulges any wilful ſin. <hi>And unfeignedly believe his holy Goſpel;</hi>] that is, the Duties and Threat<g ref="char:EOLhyphen"/>nings, as well as the Hiſtory and
+<pb n="49" facs="tcp:93768:30"/>Promiſes. <hi>Wherefore let us be<g ref="char:EOLhyphen"/>ſeech him to grant us true Repen<g ref="char:EOLhyphen"/>tance and his holy Goſpel.</hi>] Where you may obſerve you muſt joyn Prayer to your Endeavours, both for Repentance for what is paſt, and the aſſiſtance of God's holy Spirit to enable you to do your Duty for the time to come; for by our own ſtrength we are not able to do any thing that is good and acceptable to God; the reſt is ſo eaſie that it needs no Expla<g ref="char:EOLhyphen"/>nation. If you are ſure of your <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>art in performing the Conditions of Repentance and Amendment, God will moſt certainly perform his promiſe, which he has authorized his Servant to declare in his Name, on which you may rely with comfort, and apply with confi<g ref="char:EOLhyphen"/>dence
+<pb n="50" facs="tcp:93768:31"/>to your ſelf. You muſt not ſay the Abſolution after the Miniſter, that being not pro<g ref="char:EOLhyphen"/>perly a Prayer, but ſetting forth the Condition of our Pardon.</p>
+               <p>While the Miniſter is ſaying the Abſolution, offer ſome ſuch Ejaculations as theſe; Let this gra<g ref="char:EOLhyphen"/>cious Abſolution, pronounced by the Miniſter, be extended unto me: Thou art the Father of Mer<g ref="char:EOLhyphen"/>cy, who <hi>willeſt not the death of a ſinner;</hi> O fit me, and all here preſent, to receive the Remiſſion of our ſins, by a faithful perform<g ref="char:EOLhyphen"/>ing the Conditions on our part; <hi>Encreaſe our Faith, perfect Repen<g ref="char:EOLhyphen"/>tance, and by the aſſiſtance of thy holy Spirit, help us unfeignedly to believe and ſincerely obey thy Goſpel; that thoſe things may pleaſe thee
+<pb n="51" facs="tcp:93768:31"/>which we do at this preſent; and that the reſt of our life hereafter may be pure and holy, ſo that at the laſt we may come to thy Eternal Joy, through Jeſus Chriſt our Lord.</hi>
+               </p>
+               <p>At the end of this and other Prayers, ſay <hi>Amen,</hi> which ſignifies your conſent to Prayer, and deſire that God will hear and anſwer it. Then follow the Lord's Prayer, which being the moſt perfect Pat<g ref="char:EOLhyphen"/>tern and comprehenſive Form of Prayer, is in our Liturgy ſeveral times repeated; repeating the Anſwers aloud in the Liturgy and other places, may be of uſe to incite your Affection, and keep you more wakeful; and beſides, it makes a joyful and harmonious Melody, when both the Miniſter and the People are thus united in
+<pb n="52" facs="tcp:93768:32"/>the Service of God. Then follows the Pſalms, which are read ſtand<g ref="char:EOLhyphen"/>ing, by reaſon the greateſt of them are either Prayers to, or Praiſes of God, and Commemorations of his deliverance of his Church and Peo<g ref="char:EOLhyphen"/>ple, to excite our Faith and Con<g ref="char:EOLhyphen"/>fidence in him, who alſo will deli<g ref="char:EOLhyphen"/>ver us in like manner if we faith<g ref="char:EOLhyphen"/>fully ſerve him. There are alſo Declarations of God's Judgment to the wicked, to warn us to for<g ref="char:EOLhyphen"/>ſake our ſins, if we will eſcape the like Puniſhments.</p>
+               <p>You muſt not apply thoſe Cur<g ref="char:EOLhyphen"/>ſes you meet with in the Pſalms to your private or publick Ene<g ref="char:EOLhyphen"/>mies, but only to the irreconcile<g ref="char:EOLhyphen"/>able Enemies of God, that is, the Devil, ſince we are not ſure but the moſt wicked man may repent
+<pb n="53" facs="tcp:93768:32"/>and be reconciled to God; we muſt not pray for the Deſtruction, but Converſion of all that are in a poſſibility of it.</p>
+               <p>Next comes the Chapters, which you muſt hear with the greateſt reverence and attention you can, remembring 'tis the Word of God by which you muſt be judged at the laſt Day. What you hear, apply it to your ſelf, as if it was ſpoken purpoſely for you. If any thing is commanded, think, Do I do this? If any thing is forbid, Am I not guilty? And ſo practiſe ac<g ref="char:EOLhyphen"/>cordingly. What you find too hard for your Underſtanding, either humbly paſs over, praying to God that you may not be ignorant of a<g ref="char:EOLhyphen"/>ny neceſſary Truth; or elſe as ſoon as you have opportunity, ask your
+<pb n="54" facs="tcp:93768:33"/>Miniſter. Above all things, never dare to make that evil uſe of God's Word, to remember it only to uſe profanely in idle Jeſts, which is a great ſin; nor by miſapplying or forcing any part of it to excuſe any ſinful practice; but take it al<g ref="char:EOLhyphen"/>together as the Rule of your Faith and Life, and do not think the examples of any holy Man or Woman in Scripture will excuſe your wilful committing the like ſins, the uſe of which is to keep from deſpair thoſe who have al<g ref="char:EOLhyphen"/>ready committed ſuch Crimes, and repent and amend as they did, not to encourage ſin in thoſe who ſin wilfully; who preſuming on the grace of repentance, God may per<g ref="char:EOLhyphen"/>haps withhold that grace as a juſt puniſhment for the abuſe of his
+<pb n="55" facs="tcp:93768:33"/>mercy. So that what you are moſt particularly to obſerve is the Com<g ref="char:EOLhyphen"/>mands and Prohibitions of the Go<g ref="char:EOLhyphen"/>ſpel, and frame your Life accord<g ref="char:EOLhyphen"/>ing to thoſe Rules.</p>
+               <p>You are to ſtand up at the Creed, which is a ſhort Summary of all the Chriſtian Faith, in token that you confeſs the ſame Faith, and are ready to lay down your Life ra<g ref="char:EOLhyphen"/>ther then renounce it. Then fol<g ref="char:EOLhyphen"/>lows the Prayers and Litany, which you muſt attend unto with as much devotion as you can, endeavouring to keep out all thoughts. And do not think you ſpend too much time in Interceſſions, that is, in praying for others, as the Church your Governours, thoſe in Afflicti<g ref="char:EOLhyphen"/>on, and the like; for publick Pray<g ref="char:EOLhyphen"/>er is moſt proper for the Publick,
+<pb n="56" facs="tcp:93768:34"/>that is, for all men; it being impoſ<g ref="char:EOLhyphen"/>ſible by any ſuch Prayers to ſuit to all the particular wants to private Perſons. But beſides, Prayers for the Publick are not without great Advantages to our ſelves; for eve<g ref="char:EOLhyphen"/>ry honeſt man finds the benefit of good Governours, peaceable times, ſeaſonable weather, and the like. And ſurely, can he be ſaid to love his Neighbour as himſelf, who grudges a little time to pray that God would deliver him out of thoſe Evils he ſuffers, either out<g ref="char:EOLhyphen"/>ward or inward. Did all Man<g ref="char:EOLhyphen"/>kind love God, and one another as they ought to do, 'twould make a ſort of Heaven on Earth; there would be no ſuch thing as Miſery in the World: Therefore to be ſure, whatever contributes to this,
+<pb n="57" facs="tcp:93768:34"/>muſt likewiſe contribute, not on<g ref="char:EOLhyphen"/>ly to the publick, but every par<g ref="char:EOLhyphen"/>ticular perſon's good.</p>
+               <p>The ſecond Service or part of Communion Service uſed on Sun<g ref="char:EOLhyphen"/>days and Holy days, is to mind us of the ancient Cuſtom of cele<g ref="char:EOLhyphen"/>brating the Holy Sacrament; and though now the coldneſs of ſome, and unfitneſs of others, makes ſo frequent a Communion hardly practicable, eſpecially in ſmall Country Towns; yet a devout Soul may live in a conſtant habi<g ref="char:EOLhyphen"/>tual preparation and deſire of it, which will help much to preſerve a ſpiritual life and love of God. You are not to ſay the Command<g ref="char:EOLhyphen"/>ments as a Prayer, though you continue on your knees, which is only to be more ready to make
+<pb n="58" facs="tcp:93768:35"/>that excellent requeſt after every Commandment, which is a ſhort Prayer, to implore forgiveneſs for any paſt Tranſgreſſion you have been guilty of; and the aſſiſtance of God's holy Spirit to enable you to keep them more Perfect for the time to come.</p>
+               <p>All the Prayers ended, which an honeſt mind will not think long, and is a good ſign of our love to God when we are not wearied with his Service, that you may joyn with greater devotion in ſinging Pſalms, it will be of good uſe to practice them often at home, as I have adviſed. Obſerve the ſame reverence and devotion in joyning with the Miniſter in his Prayer before Sermon, that you may reap the more profit by the
+<pb n="59" facs="tcp:93768:35"/>Sermon. Be not prejudiced againſt the Miniſter, but the weaker the Preacher is, the more earneſt let your Prayers be, that the Power and Spirit of God may ſupply his de<g ref="char:EOLhyphen"/>fects;
+<note place="margin">Of hearing God's Word. Luke 8.18. Eccl. 5.1. Luk. 10.16. Joh. 8.47. 1 Joh. 4.1. Iſa. 8.20. Gal. 1.8. James 1.22. 2 Theſſ. 2.13. Rom. 10.14, 15. Hebr. 2.1.</note> God gives not gifts alike to all, ſo that in ſome mea<g ref="char:EOLhyphen"/>ſure you murmur againſt God, in deſpiſing his Ser<g ref="char:EOLhyphen"/>vants; and an honeſt heart can<g ref="char:EOLhyphen"/>not fail by the worst Sermons to benefit ſomething; and God will reward the meek and humble hearer, and as plentifully water with his Spirit the Seed ſown, though with ſome Chaff, as the more excellent Diſcourſes, when received into a proud heart. If
+<pb n="60" facs="tcp:93768:36"/>your Miniſter divides his Sermon, endeavour to remember the head of each diviſion, and turn down a Text of Scripture to each head, which will ſerve to recal the reſt into your memory, when you come to repeat to, or examine your Children and Servants at home. But eſpecially do what you can to remember the Uſes and Application to practice. I could wiſh that ſome ſuch method might be generally uſed, eſpecially in a plain Auditory; for as the mean<g ref="char:EOLhyphen"/>eſt want moſt inſtruction, ſo moſt Congregations are made up by the greater part of theſe. But if your Miniſter takes another me<g ref="char:EOLhyphen"/>thod, and goes on in one Diſ<g ref="char:EOLhyphen"/>courſe, reſt content with his choice, endeavouring to carry away as
+<pb n="61" facs="tcp:93768:36"/>many uſeful directions as your memory will retain; which the more you uſe, the better it will be if you continue a like care and diligence.</p>
+               <p>Sermon and Service being end<g ref="char:EOLhyphen"/>ed, in a ſhort Prayer deſire God's bleſſing on his Ordinance, and thank him for the opportunity he has given you to ſerve him. De<g ref="char:EOLhyphen"/>part to your home with a cheerful heart, and if you have far to go, let your thoughts and diſcourſe be what you have that day heard and learnt. Eat and drink with thank<g ref="char:EOLhyphen"/>fulneſs for God's goodneſs, but let it be alſo with moderation, that you may be fit for holy Exerciſes after dinner. In ſome places Pray<g ref="char:EOLhyphen"/>ers begin at Three or Four a clock, which time you will do well to
+<pb n="62" facs="tcp:93768:37"/>imploy in examining your Chil<g ref="char:EOLhyphen"/>dren or Servants what they re<g ref="char:EOLhyphen"/>member of the Sermon, of their Catechiſm; often tell them of the ſinfulneſs of lying and ſwearing, immodeſty and the like. If you have time ſing a Pſalm, and after ſay the following Prayer.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="prayer">
+                           <head>Here may be uſed the Prayer ſet down before for Sunday, or this.</head>
+                           <p>
+                              <hi>WE bleſs thee, O holy and moſt merciful Father, for this day of rest, O may it kindle in us the deſires of eternal reſt, and be made inſtrumental both to obtain it, and prepare us for it: We bleſs thee for the opportunity that thou haſt given us of joyning this day with our fellow Chriſtians in the publick
+<pb n="63" facs="tcp:93768:37"/>Worſhip of thee our God; Lord pardon whatever defects we have been guilty of in the performance of it, and grant that we may renew it this Afternoon with that cheerful<g ref="char:EOLhyphen"/>neſs and devoutneſs, with that ſenſe of thy goodneſss and our wants, as may render it acceptable to thee, and pro<g ref="char:EOLhyphen"/>fitable to us. We bleſs thee again, O Lord, for the publick preaching of thy Word and Adminiſtration of thy Sa<g ref="char:EOLhyphen"/>craments, and beſeech thee that thy grace may accompany both through the whole Nation, and particularly for our ſelves, we beg that thou wouldſt ſo aſſiſt us, that thy Word may ever be a light to our feet, and a lanthorn to our paths, and that thy holy Sacraments may nouriſh and ſtrengthen us in faith and love. Let our examination of our ſelves, O
+<pb n="64" facs="tcp:93768:38"/>Lord, be ſerious and impartial, let our meditation be affectionate and delightful, let our converſation be pure and holy, that there may be no<g ref="char:EOLhyphen"/>thing thought, ſaid, or done by us this day but what may beſt ſerve &amp; promote the end for which thou haſt inſtituted it; and, good God, make every one of us diligent, not only to ſave our own Souls, but as much as in us lyes, the Souls of others too. Finally, O thou Father of our Lord Jeſus Chriſt, be thou preſent in our publick Aſſembly, and build thou up our Family in faith and vertue, and ſpeak thou to every one of our hearts in private, and hear all our Pray<g ref="char:EOLhyphen"/>ers, and accept all our Praiſes, and continue to us all that is neceſſary to life and godlineſs, and crown us at laſt with everlaſting glory. All
+<pb n="65" facs="tcp:93768:38"/>which we humbly beg through our great and only Mediator and Advo<g ref="char:EOLhyphen"/>cate Chriſt Jeſus.</hi>
+                           </p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>But if Prayers begin early, and you have leſs time, do ſo much as you can, not omitting the Pray<g ref="char:EOLhyphen"/>er; be careful to be at the be<g ref="char:EOLhyphen"/>ginning of publick Service; do not neglect the Church becauſe there is no Sermon; by Prayer we wor<g ref="char:EOLhyphen"/>ſhip God, and obtain his bleſſing: beſides, there is read the holy Scripture, which is the beſt Inſtru<g ref="char:EOLhyphen"/>ction and foundation of all Ser<g ref="char:EOLhyphen"/>mons. Be careful to fit your Chil<g ref="char:EOLhyphen"/>dren and Servants for Catechiſing, and have them preſent when it is performed in publick. After you return home, ſo ſoon as your neceſ<g ref="char:EOLhyphen"/>ſary buſineſs is over, read, or cauſe to be read ſome good practical
+<pb n="66" facs="tcp:93768:39"/>Book, and if you did not do it before, examine and inſtruct your Children and Servants, ſing Pſalms, make your Evening Prayer, and in theſe imployments ſpend your E<g ref="char:EOLhyphen"/>vening till Bed-time, only allow<g ref="char:EOLhyphen"/>ing time for a cheerful temperate Supper, which you will eat with great comfort, after ſo well ſpend<g ref="char:EOLhyphen"/>ing the day, you muſt not omit your private Prayers, only enlarge your Praiſes: To which end call to mind the many Mercies you have received, and your unwor<g ref="char:EOLhyphen"/>thineſs of them, by reaſon of your ſins, and compare your ſelves with thoſe below you, who are perhaps more worthy; but if you want all other bleſſings, yet conſider how great your happineſs is in being a Chriſtian, and ſo capable,
+<pb n="67" facs="tcp:93768:39"/>if not your own fault, of heaven<g ref="char:EOLhyphen"/>ly glory, which incomparably ex<g ref="char:EOLhyphen"/>ceeds the greateſt temporal feli<g ref="char:EOLhyphen"/>city.</p>
+               <p>I do not here allow any time for goſſiping Viſits, becauſe the greateſt part of Country People are apt to waſte the Afternoon in ſuch things; but yet I am by no means ſo ſevere as to forbid a walk in the Fields, or a friendly viſit to a Neighbour for an hours refreſhment to thoſe whoſe ne<g ref="char:EOLhyphen"/>ceſſary buſineſs allows time e<g ref="char:EOLhyphen"/>nough for both, eſpecially if that Neighbour is ſick, or under any affliction; but then you muſt not ſpend your time in idle talk, ma<g ref="char:EOLhyphen"/>king bargains, or other worldly buſineſs, but in good and uſeful Diſcourſes. And thoſe Neigh<g ref="char:EOLhyphen"/>bours
+<pb n="68" facs="tcp:93768:40"/>that will not endure this, but promote drinking, ſwearing, or the like profaneneſs, are by no means to be viſited on that day, that is ſanctified to the Service of God and Spiritual Promiſe. And indeed, if you conſider as you ought the great advantage of be<g ref="char:EOLhyphen"/>ing obliged to ſpend one day in ſeven in holy Duties, you would not be weary of its ſo frequent return, but thank God for ſo pro<g ref="char:EOLhyphen"/>fitable an Inſtitution; ſince, I fear, were the obſervation of this day left to every ones choice, the love of profit or pleaſure would pre<g ref="char:EOLhyphen"/>vail with too many to neglect it, and ſo occaſion ignorance and profaneneſs to prevail more then it does: The inconvenience of the Sabbaths being neglected, and the
+<pb n="69" facs="tcp:93768:40"/>advantages of its obſervation are ſo many, eſpecially to the more unlearned, that no true lover of Piety, that deſires the publick good, ought by any means to en<g ref="char:EOLhyphen"/>courage the Contemners of it.</p>
+               <div n="2" type="section">
+                  <head>SECT. II.</head>
+                  <argument>
+                     <p>
+                        <hi>Of Holy Days, or Fast Days.</hi>
+                     </p>
+                  </argument>
+                  <p>THE uſe of other Feſtival days or Holy days, is that People may have more leiſure and opportunity to ſerve God, and to keep in memory the Hiſtory of the New Teſtament; as the Birth, Suffering, Reſurrection, Aſcenſion, of our Lord and Saviour Jeſus Chriſt. The Apoſtles days are to
+<pb n="70" facs="tcp:93768:41"/>thank God for the Doctrine they preached and writ, and to encou<g ref="char:EOLhyphen"/>rage us to the imitation of their holy Examples. There are alſo days of Thankſgiving for Nation<g ref="char:EOLhyphen"/>al Bleſſings, and the Faſting days, are to conſider and lament your own ſins, and alſo thoſe of the Nation, eſpecially in times of War or other publick Calamity; and to pray for the averting thoſe Judg<g ref="char:EOLhyphen"/>ments which our ſins deſerve; ſome of theſe I think are the ſubject of all Holy days: which is alſo rea<g ref="char:EOLhyphen"/>ſonable upon another account, the giving Servants and Labourers time, firſt to ſerve God, and next for innocent refreſhment and do<g ref="char:EOLhyphen"/>ing their own buſineſs. It is not out of any Superſtition that the obſervation of theſe days is re<g ref="char:EOLhyphen"/>commended;
+<pb n="71" facs="tcp:93768:41"/>for what Superſti<g ref="char:EOLhyphen"/>tion can it be to read, pray, and ſerve God, as frequently as our buſineſs will admit: I do not ſay it is a Command from God, and therefore do not command, but commend their obſervation. And ſince ſuch days are appointed, and Service in the Church ordered, if we prefer theſe before days of our own chooſing, it will keep great<g ref="char:EOLhyphen"/>er order, and all Families being imployed in the Service of God, not hinder one the other in world<g ref="char:EOLhyphen"/>ly buſineſs: therefore to thoſe who are willing to follow my di<g ref="char:EOLhyphen"/>rections, I recommend the doing of no more work then is needful, not that the obligation is the ſame as on the Lord's day, but only on an advantage of your growing in
+<pb n="72" facs="tcp:93768:42"/>grace. Therefore thoſe that can<g ref="char:EOLhyphen"/>not read, after the Family and Private Devotions is over, had much better work themſelves, or find any innocent imployment, then looſe their time in idleneſs and ſloth. After your neceſſary bu<g ref="char:EOLhyphen"/>ſineſs is done, ſpend the reſt of the Morning in reading to your Family, who may at the ſame time do any quiet or ſitting work, or elſe catechiſe your Children and Servants; but be ſure, if there is any Service in the Church, to at<g ref="char:EOLhyphen"/>tend on that with willingneſs and devotion, and cauſe your Family to do the like. The reſt of the day, if you are able to afford ſo much time, you may ſpend in ſeeing an honeſt Neighbour or Relation, your Miniſter or Land<g ref="char:EOLhyphen"/>lord;
+<pb n="73" facs="tcp:93768:42"/>but be ſure on theſe days, as on no other, you eat nor drink not to exceſs; for by that you make, what was deſigned for God's Service and your good, the cauſe of God's diſhonour and your per<g ref="char:EOLhyphen"/>dition; the Devil's work ought to be done on no day, and leſs on a day called holy, and deſigned for holy uſes; therefore avoid ſuch Company as will tempt you to exceſs; 'tis better work at home then go abroad for ſuch purpoſes. Come home early, if you go a<g ref="char:EOLhyphen"/>broad, that you may have time to enlarge your Devotions by read<g ref="char:EOLhyphen"/>ing or praying ſomething longer, or ſinging Pſalms; but whatever part of theſe Devotions you want time for, be ſure that nothing but very great neceſſity hinders your
+<pb n="74" facs="tcp:93768:43"/>going to Church on ſuch days; but when Harveſt, or other una<g ref="char:EOLhyphen"/>voidable buſineſs hinders, read the ſame Scriptures you ſhould hear at Church at home; and at your work be much in ſinging Pſalms, good diſcourſe on holy Meditati<g ref="char:EOLhyphen"/>ons, praying that God will accept your deſires to worſhip him more ſolemnly, and give you a ſhare of thoſe bleſſings others pray for. But take care whenever you plead neceſſity to omit God's Worſhip, that it be not a pretended neceſ<g ref="char:EOLhyphen"/>ſity, for that will be a great ag<g ref="char:EOLhyphen"/>gravation of your neglect; if you can looſe time in idleneſs and va<g ref="char:EOLhyphen"/>nity, and yet fancy you have none for God's Service, this is plainly becauſe you want a true love to God: For we like to
+<pb n="75" facs="tcp:93768:43"/>converſe with thoſe we love, and are very ready to con<g ref="char:EOLhyphen"/>trive means to do it, if you will but try to be, in the firſt place, careful to ſerve God, in the next, induſtrious in your buſineſs, dare promiſe that the time you ſo ſpend ſhall not be loſt, but be a<g ref="char:EOLhyphen"/>bundantly rewarded, and is moſt likely to obtain the bleſſing of God on your labours, a contented mind, and ſure hope of eternal happineſs.</p>
+               </div>
+            </div>
+            <div n="3" type="chapter">
+               <head>CHAP. III.</head>
+               <argument>
+                  <p>
+                     <hi>Of preparation to the holy Sacrament.</hi>
+                  </p>
+               </argument>
+               <p>SUppoſing you live an honeſt &amp; holy life, and ſincerely endea<g ref="char:EOLhyphen"/>vour to do your duty to God,
+<note place="margin">Of the Sacrament. 1 Cor. 11.23, 24, 25, 26. Luke 22.17, 18, 19, 20. 1 Cor. 5.7, 8. &amp; 11.27, 28, 29, 30</note> your Neighbour, and your ſelf, I would
+<pb n="76" facs="tcp:93768:44"/>adviſe you to receive the holy Sa<g ref="char:EOLhyphen"/>crament as often as it is admini<g ref="char:EOLhyphen"/>ſtred in your Pariſh Church. If your life is wicked you muſt not come at all till you reform, and are prepared by repentance and good works. So that there is no excuſe for ſeldom receiving. If you are unfit for the Sacrament, you are unfit to die, and then there is no time for delay; but you muſt ſpeedily mend, and beg pardon and grace that you may be prepared for both.</p>
+               <p>But foraſmuch as this Book is directed only to ſuch as are inga<g ref="char:EOLhyphen"/>ged in a holy life, or reſolve to be ſo, for others will hardly ſubmit to theſe Rules; I ſhall ſuppoſe my Reader is in a ſtate of grace, and reſolved to be God's faithful Sol<g ref="char:EOLhyphen"/>dier
+<pb n="77" facs="tcp:93768:44"/>and Servant all the days of his life, as he engaged in his Bap<g ref="char:EOLhyphen"/>tiſm: But to avoid all ſcruple in judging of your right to this holy Ordinance, take the advice of your Paſtors, and ſubmit to it; and if he admits you once, you ought not after to neglect repeating of this Duty, except you fall into ſome wilful ſin, temptation, or doubt, in which caſe 'tis ſafeſt being adviſed by your Miniſter, who will reſolve your doubt, and adviſe you how to overcome your temptation, and in caſe of wilful ſin, will aſſiſt your repentance, and judge when it is ſuch as will ad<g ref="char:EOLhyphen"/>mit your return to the holy Com<g ref="char:EOLhyphen"/>munion; then you muſt deal ſin<g ref="char:EOLhyphen"/>cerely, elſe you deceive him, and ſo are the cauſe of his deceiving
+<pb n="78" facs="tcp:93768:45"/>you, which will be your own miſ<g ref="char:EOLhyphen"/>fortune.</p>
+               <p>When the warning is given, re<g ref="char:EOLhyphen"/>joyce at the glad Tidings, and hearken with reverence and atten<g ref="char:EOLhyphen"/>tention to the Exhortation and Inſtructions contained in it, during the whole week; have it often in your mind, and as you are at work, think how you are prepa<g ref="char:EOLhyphen"/>red; what it is makes you moſt afraid or unwilling to come to this bleſſed Feaſt; if it is any remain<g ref="char:EOLhyphen"/>ing love to ſin, if you find any be<g ref="char:EOLhyphen"/>loved luſt, you are ſtill loth to part with, reſt not in this dange<g ref="char:EOLhyphen"/>rous ſtate, for your Salvation is in great hazard, when your love to ſin is greater then your love of God, or Heaven, or fear of Hell; which it muſt needs be, ſo long as
+<pb n="79" facs="tcp:93768:45"/>you cannot reſolve to part with it, though you know that the wages of ſin is death, and that no unclean wicked man, ſo long as he conti<g ref="char:EOLhyphen"/>nues ſo, can enter into the King<g ref="char:EOLhyphen"/>dom of Heaven: therefore if you live in Fornication, Drunkenneſs, Swearing, Cheating, Malice, Ly<g ref="char:EOLhyphen"/>ing, Covetouſneſs, Unmercifulneſs, the neglect of God's Worſhip, reading and hearing his holy Word, frequent Prayer, breach of the Sabbath, or any other known wilful ſin, come not to the holy Sacrament, not only not frequent<g ref="char:EOLhyphen"/>ly, but not at all, till you amend your ways; nor immediately ſo ſoon as you think you repent, but try your ſincerity. But the ſafeſt way in this caſe is, as I ſaid before, to be adviſed and examined by
+<pb n="80" facs="tcp:93768:46"/>ſome honeſt ſober Miniſter, both before your firſt admiſſion, and after in caſe of relapſe into your old ſins, or doubts of ſincerity in your ſpiritual ſtate, if your ſins are only of infirmity and defects of doing good, be not diſcouraged, nor keep from this great means of ſtrengthening your weak graces, which the Enemy of your Soul will tempt you to; that being without this ſpiritual Armour, he may with the more eaſe overcome; but in the days of your Prepara<g ref="char:EOLhyphen"/>tion, often call to mind and ob<g ref="char:EOLhyphen"/>ſerve what imperfections you find moſt prevail, and what temptati<g ref="char:EOLhyphen"/>ons to them, and think what may be the beſt means for the over<g ref="char:EOLhyphen"/>coming of them; alſo think what is moſt apt to draw you from the
+<pb n="81" facs="tcp:93768:46"/>Service of God and your Neigh<g ref="char:EOLhyphen"/>bour, and fortifie your ſelf againſt ſuch temptations; and by medi<g ref="char:EOLhyphen"/>tation of the Joys of Heaven, and the Torments of Hell, certainty of Death, and uncertainty of Life, quicken your Reſolutions of ſin<g ref="char:EOLhyphen"/>cere Obedience to all God's Com<g ref="char:EOLhyphen"/>mandments.
+<note place="margin">Faſting. Matth. 6.16, 17, 18. Acts 10.30.</note> What time you can ſpare imploy in reading good Books, Prayer and Meditati<g ref="char:EOLhyphen"/>on; the <hi>Friday</hi> or <hi>Saturday</hi> be<g ref="char:EOLhyphen"/>fore the Communion, keep as a Faſt; but if by reaſon of your la<g ref="char:EOLhyphen"/>bour, you find your ſtrength will not hold out, eat a piece of bread and drink a cup of beer in the Morning, or at Noon, and eat your Supper with thankfulneſs, as at other times; and on the day
+<pb n="82" facs="tcp:93768:47"/>imploy an hour or two in Exami<g ref="char:EOLhyphen"/>nation and humble Confeſſion of all your ſins, with earneſt Suppli<g ref="char:EOLhyphen"/>cation for Pardon, through the Merits of Chriſt Jeſus; to which purpoſe uſe the following Form, or the like, enlarging according to your own particular caſe.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="confession">
+                           <head>A general Confeſſion of Sin.</head>
+                           <p>O <hi>God, who art light, and in whom is no darkneſs at all, with whom we can maintain no com<g ref="char:EOLhyphen"/>munion, unleſs we walk in the light as thou art in the light, O God, who though thou art merciful and graci<g ref="char:EOLhyphen"/>ous to Penitents, art a holy and a juſt God too, and would by no means acquit the guilty and impenitent, I preſent my ſelf before thee at this
+<pb n="83" facs="tcp:93768:47"/>time with an earneſt deſire to con<g ref="char:EOLhyphen"/>feſs and bewail my paſt ſins, and to renew my Vows and Reſolutions of forſaking them, that I may find mercy. When I look back upon all the parts of my paſt life, Ah how do I find it defil'd and polluted by negligence and folly, by wilfulneſs and preſumption; Ah how often haſt thou called, and I have refuſed; how often have I ſet at nought thy coun<g ref="char:EOLhyphen"/>ſel, and would none of thy reproof: Ah how long have I reſiſted thy Spirit, ſlighted thy Promiſes, and hardned my ſelf againſt all the ter<g ref="char:EOLhyphen"/>rours of God: Ah how often have I broke my ſolemn Vows and Cove<g ref="char:EOLhyphen"/>nant, and returned to the ſame pollu<g ref="char:EOLhyphen"/>tions which I had before endeavour<g ref="char:EOLhyphen"/>ed to waſh off by tears and prayers. Lord, when I call to mind</hi>—[Here
+<pb n="84" facs="tcp:93768:48"/>mention your particular ſin, ſuch eſpecially as are moſt provoking] <hi>my heart would fail me, and I ſhould ſink under the weight of ſhame and deſpair, did not thy Goſpel raiſe and revive me; I believe thy mercy in<g ref="char:EOLhyphen"/>finite as thy Majeſty, O extend that mercy to me a miſerable ſinner, who ſtand in need of mercy not leſs then infinite; I believe that thine only Son, the Son of thy boſom, offered up himſelf a Sacrifice for ſin; O let my Soul be cleanſed by his moſt precious Blood, and let not my ſins be imputed to me: I repent, O my God, and do heartily wiſh that theſe my ſins had never been committed. But ah! that cannot be; I am ready therefore to do all that I can, and this is that thou haſt promiſed to accept through our Mediator, to be ſorry for and re<g ref="char:EOLhyphen"/>nounce
+<pb n="85" facs="tcp:93768:48"/>my ſin: To thee belongs the glory of mercy and forgiveneſs, to me belongs humility and ſorrow; And O! may this be my buſineſs and my delight too, during the time of my pilgrimage; I will no more hereafter ſeek my profit, or my pleaſure, my eaſe, or my revenge; poverty of ſpi<g ref="char:EOLhyphen"/>rit, meekneſs, purity of heart, mourn<g ref="char:EOLhyphen"/>ing for ſin, hunger and thirst after righteouſneſs, charity and ſelf-denial, theſe are the things I will follow af<g ref="char:EOLhyphen"/>ter, practiſe and delight in; this is that I will account my bleſſedneſs. And whatever I have done to any by word or deed, by example or any other way, if there remain yet any reſtitution or reparation to be made, I am ready and willing, O my God, to do it; the buſineſs of my following life ſhall be by all the ways and
+<pb n="86" facs="tcp:93768:49"/>means I can, to blot out the remem<g ref="char:EOLhyphen"/>brance of my paſt Offences, and to advance the glory of God, and the good of Man; and after all, I deſire to glory only in the Lord, to be clo<g ref="char:EOLhyphen"/>thed with humility, and acknowledge my ſelf an unprofitable ſervant, and great ſinner; and, O do thou pardon and deliver me from my ſins, and confirm and ſtrengthen me in all goodneſs, and bring me to everlaſting Life, through Jeſus Chriſt our Lord.</hi>
+                           </p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>On <hi>Saturday</hi> be very careful of your Converſation, that you quench not the Spirit by vain plea<g ref="char:EOLhyphen"/>ſures, or too much wordly care: Be much in ſinging Pſalms at your work, with devout Meditations. If you go to Market, come home as ſoon as you can poſſibly, and
+<pb n="87" facs="tcp:93768:49"/>be ſure not to looſe your time in an Ale-houſe. If you work at home, leave off two hours ſooner then you are wont to do; ſpend that time in reading and prayer for the aſſiſtance of God's grace and holy Spirit, to enable you to ſub<g ref="char:EOLhyphen"/>due your ſins, and perfect your graces, eſpecially thoſe you find moſt defective, and that you may be led unto the ways of holineſs and eternal happineſs; alſo that you may be a worthy partaker of the holy Sacrament, and that God would make it effectual to thoſe ends. Then look over your Ex<g ref="char:EOLhyphen"/>amination, and if you find your Conſcience troubled, go to the Miniſter, or ſome pious Friend, and reſt not under Doubts that may be ſo eaſily cured.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="prayer">
+                           <pb n="88" facs="tcp:93768:50"/>
+                           <head>A Prayer for Grace according to the foregoing Heads.</head>
+                           <p>O Eternal God, the giver of all ſpiritual grace, and the Author of everlaſting life, thou art pleaſed to call and invite me by thy Word, and by thy Miniſters to the Communion of the moſt holy and comfortable Sacrament of the Body and Blood of my dear Lord; I come therefore, but I come with reverence and humili<g ref="char:EOLhyphen"/>ty, not truſting in my own righ<g ref="char:EOLhyphen"/>teouſneſs, but thy mercy: I am unworthy of any Temporal bleſ<g ref="char:EOLhyphen"/>ſing, how much more of the gift of thy Son and thy Spirit; but 'tis thy good will, 'tis thy free boun<g ref="char:EOLhyphen"/>ty to beſtow grace and everlaſt<g ref="char:EOLhyphen"/>ing
+<pb n="89" facs="tcp:93768:50"/>life upon all thoſe that ſeek it through the merits and mediation of thy Son Jeſus: grant therefore to me, moſt gracious God, that I may be made partaker of all the benefits of his Paſſion, let me be ſtrengthned in Faith, let my love of thee, and of my dear Lord, be inlarged, and let the love of my Neighbour dwell plentifully in me, give me humility and patience, enable me more and more to mor<g ref="char:EOLhyphen"/>tifie all the remains of my Cor<g ref="char:EOLhyphen"/>ruption, and make me more fer<g ref="char:EOLhyphen"/>vent and ſtedfaſt in thy Service. Eſpecially grant that I may dili<g ref="char:EOLhyphen"/>gently labour after—<hi>[Here menti<g ref="char:EOLhyphen"/>on ſuch particular Vertues as you need above others.]</hi> and never give over till I find my Soul poſſeſſed by them, and transformed from
+<pb n="90" facs="tcp:93768:51"/>glory. And O bleſſed God, who has begun a good work in me, do thou finiſh and compleat it, and preſerve me by thy power through faith unto ſalvation, that I cleav<g ref="char:EOLhyphen"/>ing conſtantly unto thee, and ne<g ref="char:EOLhyphen"/>ver ſtray from the faith and obe<g ref="char:EOLhyphen"/>dience of the Goſpel unto my lives end, may be filled with peace and joy in the holy Ghoſt, and at laſt obtain remiſſion of my ſins, and an inheritance of glory with all thoſe that are ſanctified through faith in Jeſus. All which I beg through the Agonies and Paſſion, through the Merits and Interceſſi<g ref="char:EOLhyphen"/>on of our Eternal High Prieſt, Chriſt Jeſus.</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>On <hi>Sunday</hi> riſe as early, or ear<g ref="char:EOLhyphen"/>lier then on other days; add to
+<pb n="91" facs="tcp:93768:51"/>your uſual or private Prayers, Pe<g ref="char:EOLhyphen"/>titions for the Spirit of God, ſpi<g ref="char:EOLhyphen"/>ritual union and communion with Chriſt, a new Nature, and ſincere Obedience. Read over the Exhor<g ref="char:EOLhyphen"/>tations before the Sacrament, and as you read conſider if you be ſo prepared as they require. Indeed the whole Communion Service is an excellent direction for our pre<g ref="char:EOLhyphen"/>paration to, and meditations at the holy Sacrament; for which cauſe I would have you read it over, and make it your Rule, endeavouring to underſtand it well; and where you are ignorant, go to your Mi<g ref="char:EOLhyphen"/>niſter to be more clearly inform<g ref="char:EOLhyphen"/>ed, which will be a means of your joyning in it in publick with the greater Devotion.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="example">
+                           <pb n="92" facs="tcp:93768:52"/>
+                           <head>A ſhort Example of applying the Communion Service, the better to prevent the wandring of your Mind.</head>
+                           <p>
+                              <hi>YE that do truly and earneſtly repent,</hi>] Lord I repent, per<g ref="char:EOLhyphen"/>fect my repentance: <hi>And are in Love and Charity with your Neigh<g ref="char:EOLhyphen"/>bour,</hi>] Encreaſe my Charity; I forgive, and deſire to be forgiven by others. <hi>And intend to lead a new Life, &amp;c.</hi>] Aſſiſted by thy grace, I reſolve to keep thy Com<g ref="char:EOLhyphen"/>mandments, and walk in thy holy ways. <hi>Draw near with faith,</hi>] Confirm my faith that I may re<g ref="char:EOLhyphen"/>ceive the holy Sacrament to my comfort; as I humbly confeſs, ſo graciouſly pardon all my ſins. Af<g ref="char:EOLhyphen"/>ter
+<pb n="93" facs="tcp:93768:52"/>this manner you may apply the larger Exhortation before, which I leave to your own devo<g ref="char:EOLhyphen"/>tion. Then follows the Confeſſion and other Prayers which you are to joyn in, and the Prayer of Con<g ref="char:EOLhyphen"/>ſecration to theſe words, <hi>Who in the ſame night,</hi> &amp;c. the reſt being proper only to the Miniſter, who is appointed alone to conſecrate the Bread and Wine for this holy uſe.</p>
+                           <p>Obſerve in the Prayer that Chriſt is ſaid to be but <hi>once offered,</hi> which was when he ſuffered on the Croſs; by which Sacrifice he made a full, perfect, and ſufficient Ob<g ref="char:EOLhyphen"/>lation and Satisfaction for the ſins of the whole World, that is, who<g ref="char:EOLhyphen"/>ever ſhall repent and believe. Obſerve alſo that he commands
+<pb n="94" facs="tcp:93768:53"/>us to continue the remembrance of his Death till his coming again; which ought to convince you of the duty of the frequent coming to the holy Table. The reaſon of kneeling is only this being the moſt ſolemn time of Prayer, that poſture is moſt proper, therefore ought not to be a cauſe of diviſi<g ref="char:EOLhyphen"/>on. As for your private devotion, obſerve the following Rules: Im<g ref="char:EOLhyphen"/>ploy ſome time in the Morning to conſider how you muſt behave your ſelf at the holy Table, how to order your Meditations, and renuing your Baptiſmal Covenant, meditating on, and applying the benefits of Chriſt's Death for your pardon and reconciliation with God, what ſin to be moſt hum<g ref="char:EOLhyphen"/>bled for, what grace to beg moſt
+<pb n="95" facs="tcp:93768:53"/>earneſtly; pray alſo that no temp<g ref="char:EOLhyphen"/>tation of the World, the Devil, or your own corrupt Nature, may rob you of the fruit of this Com<g ref="char:EOLhyphen"/>munion; no ſinful, worldly or wandring thoughts trouble you; but that God would remove what<g ref="char:EOLhyphen"/>ever may obſtruct the operation of his grace. When any of your Family go along with you to the Sacrament, as you ought to en<g ref="char:EOLhyphen"/>deavour they ſhould, when they are of years, and throughly in<g ref="char:EOLhyphen"/>ſtructed; ſay ſome Prayer relating to the Sacrament, beſides your or<g ref="char:EOLhyphen"/>dinary Morning Prayer.</p>
+                           <p>Take care to be at the Church in good time; after Sermon till the Communion Service begins, ſpend your time in humble confeſſing your ſins, and unworthineſs of ſo
+<pb n="96" facs="tcp:93768:54"/>great a favour. So ſoon as the Mi<g ref="char:EOLhyphen"/>niſter begins, leave off all private Prayer and joyn with him, with all the attention and zeal you can poſſibly: Attend to the Exhorta<g ref="char:EOLhyphen"/>tion and apply it to your ſelf, as before obſerved; for the Prayers, you muſt joyn in them with De<g ref="char:EOLhyphen"/>votion. After Conſecration, while the Miniſter is receiving, and till he comes to you, ſay your private Prayer; firſt pray that God would except all preſent, and make them partakers of the benefit of his ho<g ref="char:EOLhyphen"/>ly Sacrament. Secondly confeſs your ſins, and acknowledge that your due deſert is death and de<g ref="char:EOLhyphen"/>ſtruction: Look on Chriſt as the only propitiation for your ſins; believe that his Death was a full, perfect, and alſufficient Sacrifice
+<pb n="97" facs="tcp:93768:54"/>for them, preſent them to God as ſuch, deſiring that the merits of his Sufferings may be imputed for your pardon, and his Righteouſ<g ref="char:EOLhyphen"/>neſs for your juſtification and ac<g ref="char:EOLhyphen"/>ceptance with God; believe firm<g ref="char:EOLhyphen"/>ly that God now offers to renew his Covenant, and grants you par<g ref="char:EOLhyphen"/>don, grace, and glory, if you are faithful on your part, which is for<g ref="char:EOLhyphen"/>ſaking every ſin, and obeying all the commands of God to the ut<g ref="char:EOLhyphen"/>moſt of your Power, deſiring to receive it according to the Inſti<g ref="char:EOLhyphen"/>tution of Chriſt. Perplex not your ſelf with nice definitions, believe whatever God has promiſed, his power is able to perform, and that Chriſt, and the benefits of his Death, are communicated and gi<g ref="char:EOLhyphen"/>ven to the worthy receivers, in
+<pb n="98" facs="tcp:93768:55"/>ſuch a manner as 'tis beſt for him, and his ſpiritual union with Chriſt moſt advanced. In the act of re<g ref="char:EOLhyphen"/>ceiving, let your Soul be bowed down with a ſenſe of its unwor<g ref="char:EOLhyphen"/>thineſs: Adore the mercy of God in Chriſt, deſire you may receive the holy Spirit, love God for his goodneſs, believe his promiſes, and reſolve to obey his holy com<g ref="char:EOLhyphen"/>mands. After you have commu<g ref="char:EOLhyphen"/>nicated, let the reſt of your time, till publick Prayers again, be im<g ref="char:EOLhyphen"/>ployed in Prayer for grace to keep your holy Reſolutions; for with<g ref="char:EOLhyphen"/>out God's aſſiſtance you can do nothing that is good; praiſe God for the great mercy of this Com<g ref="char:EOLhyphen"/>munion, and make earneſt Inter<g ref="char:EOLhyphen"/>ceſſion for all Mankind, eſpecially for their converſion and ſpiritual
+<pb n="99" facs="tcp:93768:55"/>welfare, for the deſtruction of the power of Sin and Satan, and cha<g ref="char:EOLhyphen"/>ſtening the Kingdom of Chriſt, and alſo for your Governours in Church and State, for your Friends and Relations, at leaſt ſo many of theſe as time will give you leave to uſe, ſaying the reſt at home.</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="prayer">
+                           <head>Short Prayers, or rather Ejaculati<g ref="char:EOLhyphen"/>ons, according to the paſt Rules.</head>
+                           <p>O <hi>God, thou ſaweſt me in my blood, and ſaidſt unto me live, thou ſaweſt me in my polluti<g ref="char:EOLhyphen"/>ons, and thine eye pitied me, and didſt open the fountain for my un<g ref="char:EOLhyphen"/>cleanneſs. Glory be to thee, O Lord, moſt good and moſt high!</hi>
+                           </p>
+                           <p>
+                              <hi>O holy and meek Jeſus, thou art the Lamb of God that takeſt away
+<pb n="100" facs="tcp:93768:56"/>the ſins of the World; thou who kneweſt no ſin, didſt become ſin for us, O may we be cleanſed from all unrighteouſneſs through thy Blood!</hi>
+                           </p>
+                           <p>
+                              <hi>O Saviour of the World, may all the ends of the Earth look up unto God through thee, and be ſaved; may the Kingdom of Darkneſs be broken down, and thy Kingdom, O Chriſt, be enlarged and eſtabliſhed through the whole Earth!</hi>
+                           </p>
+                           <p>
+                              <hi>O Lord, I believe that Jeſus is the Way, the Truth, and the Light, and therefore I come unto thee through him, O caſt me not off, my Soul thirſteth after thy Salvation: I come to thee in Faith, Repentance and Charity, O receive me and fill me with grace and comfort, Amen bleſſed Jeſus!</hi>
+                           </p>
+                           <p>
+                              <hi>I come, O my God, to renew my
+<pb n="101" facs="tcp:93768:56"/>Covenant with thee in the blood of Jeſus, O receive me a poor penitent Prodigal! I have wandred from thee, I have hewed out to my ſelf Ciſterns, broken Ciſterns that will hold no water, but now my Soul gaſpeth for thee, O thou Fountain of living wa<g ref="char:EOLhyphen"/>ters. O give me thy Spirit, that it may cleanſe and refreſh me, that it may ſatisfie the deſires of my Soul!</hi>
+                           </p>
+                           <p>
+                              <hi>I will be thy Servant, O bleſſed Jeſus, thy Diſciple and Follower, O be thou my Prince and my Saviour, be thou my ſtrength and my glory, and let me rejoyce always in thy Sal<g ref="char:EOLhyphen"/>vation! I deſire to imitate thee, O holy Jeſus, and eſpecially thy bound<g ref="char:EOLhyphen"/>leſs Charity.</hi>
+                           </p>
+                           <p>
+                              <hi>I forgive, O let me find forgive<g ref="char:EOLhyphen"/>neſs from the mercy of God, I am ready to do all the good I can for a<g ref="char:EOLhyphen"/>ny
+<pb n="102" facs="tcp:93768:57"/>one of my fellow Members, and I am ſorry I can do no more; I will weep, I will pray for all that are in di<g ref="char:EOLhyphen"/>ſtreſs, and I will feed and clothe and comfort them as I can, O accept then the mite of thy poor ſervant, and re<g ref="char:EOLhyphen"/>member me in the day of Judgment!</hi>
+                           </p>
+                           <p>
+                              <hi>Grant, O God, according to the riches of thy glory, that all we who receive the Sacrament this day, may be ſtrengthned by the might of thy Spirit in the inward man, that Chriſt may dwell in our hearts by faith, that we being rooted and grounded in love, may be able to comprehend with all Saints, what is the breadth, and length, and depth, and heighth, and to know the love of Chriſt which paſſeth knowledge, that we may be filled with all the fulneſs of God.</hi>
+                           </p>
+                           <p>
+                              <hi>Nor for our ſelves only do I bow
+<pb n="103" facs="tcp:93768:57"/>my knees unto thee, thou Father of our Lord Jeſus Chriſt, of whom the whole Family in Heaven and Earth is named, but alſo for the whole Ca<g ref="char:EOLhyphen"/>tholick Church; O let the ſame pre<g ref="char:EOLhyphen"/>ſence and power<gap reason="illegible" resp="#UOM" extent="1 letter">
+                                    <desc>•</desc>
+                                 </gap> of thy Spirit be a<g ref="char:EOLhyphen"/>mongſt all thoſe who believe in the Name of the Lord Jeſus Chriſt, their Lord and ours, build them up in their holy faith, unite them in humi<g ref="char:EOLhyphen"/>lity and love, remove all the ſcan<g ref="char:EOLhyphen"/>dals and obſtacles of righteouſneſs that are in the midſt of thy Church, and ſupport and protect it againſt all the Adverſaries of the Croſs, and all the Enemies of holineſs and vertue: Let thy Son Jeſus be glorified in the blameleſs and exemplary Lives of all that profeſs his Name; let profane<g ref="char:EOLhyphen"/>neſs be put to confuſion, and Here ſie and Errour be rooted out, and let all
+<pb n="104" facs="tcp:93768:58"/>with one mind and one mouth glori<g ref="char:EOLhyphen"/>fie thee, O God, even the Father of our Lord Jeſus Chriſt.</hi> Amen, Amen.</p>
+                           <p>
+                              <hi>O thou in whoſe hands are the hearts of Kings, guide we beſeech thee theirs whom thou haſt ſet over us in thy faith and fear; give them wiſdom to rule this great People, that under them we may live peace<g ref="char:EOLhyphen"/>able and quiet lives in all godlineſs and honeſty; and Lord poſſeſs all their Subjects with a due ſenſe of their Authority, and of the benefits we all reap from them, that we may dutifully obey them, and cheerfully contribute all we can to the main<g ref="char:EOLhyphen"/>tainance and ſupport of Law and Juſtice in this Realm, that Righte<g ref="char:EOLhyphen"/>ouſneſs and Peace may through thy bleſſing flouriſh amongſt us, and our Children after us, through Jeſus Chriſt our Lord.</hi>
+                           </p>
+                           <pb n="105" facs="tcp:93768:58"/>
+                           <p>
+                              <hi>O merciful God and Saviour, cauſe all them that ſleep in ſin to awake, cauſe them to ariſe from the dead, and let Chriſt give them light!</hi>
+                           </p>
+                           <p>
+                              <hi>O thou God of tender mercies and compaſſions, hearken to the voice of them that mourn; break not the bruiſed Reed, nor quench the ſmoaking Flax, but bring forth righteouſneſs unto victory!</hi>
+                           </p>
+                           <p>
+                              <hi>O God, who art the God of the fatherleſs and widow, and judge of the oppreſſed, and the Saviour of the meek, and poor, and diſtreſſed upon the earth, viſit with thy grace and ſalvation all that are in ne<g ref="char:EOLhyphen"/>ceſſity or tribulation, and hear them when they cry unto thee for ſuccour, O Lord our Defence.</hi>
+                           </p>
+                           <pb n="106" facs="tcp:93768:59"/>
+                           <p>
+                              <hi>O bleſs my Family and all my Relations, poſſeſs them with the fear of God and Charity towards one another, and make them all love the Lord Jeſus Chriſt, to whom with thee and the Holy Ghoſt be glory for ever.</hi>
+                           </p>
+                           <p>
+                              <hi>O my God, never ſuffer me to forget thy love, or the love of Je<g ref="char:EOLhyphen"/>ſus, never ſuffer me to break my holy Vows, but ſtrengthen me that I may always endeavour to walk as my Lord walked, and may ever abide in him, and he in me, that I may be ſafe through thy prote<g ref="char:EOLhyphen"/>ction and grace, and when he who is my life ſhall appear, I alſo may appear with him in glory.</hi> Amen, Amen.</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <pb n="107" facs="tcp:93768:59"/>
+               <p>Go home with a cheerful gra<g ref="char:EOLhyphen"/>vity, and ſpend the remaining part of the day according to the Rule for the Lord's day, only be more ſtrictly careful to keep up a holy frame of mind, and not by worldly thoughts and light diſ<g ref="char:EOLhyphen"/>courſe, grieve the holy Spirit, but improve every good inclination by Prayer, that it may grow into practiſe, and endeavour your good Reſolutions by meditation and foreſeeing what temptations may aſſault you, to provide againſt them; do not go abroad, but ſpend that day in devotion, reading and praying with your Family.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="behavior">
+                           <pb n="108" facs="tcp:93768:60"/>
+                           <head>Of behaviour at Baptiſm and Mar<g ref="char:EOLhyphen"/>riage.</head>
+                           <p>WHen you are preſent at the Baptiſing of Children, attend to what is ſaid; let it put you in mind of what you vowed your ſelf, and think how well you have performed it; joyn with great ſeriouſneſs in Prayer with the Mi<g ref="char:EOLhyphen"/>niſter for the Child, that it may live ſutable to this dedication, and enjoy the priviledges of the ſame. If you are a Surety, think your ſelf obliged to take care that the Child learn what you undertook for it, for that was the reaſon of God-fathers and God-mothers, e<g ref="char:EOLhyphen"/>ſpecially if the Parents die, or are careleſs worldlings; otherwiſe re<g ref="char:EOLhyphen"/>fuſe being a Surety, if you think you cannot.</p>
+                           <pb n="109" facs="tcp:93768:60"/>
+                           <p>Alſo at Marriages, Churchings, and the like, avoid all vain beha<g ref="char:EOLhyphen"/>viour, but joyn in the Service with Reverence and Devotion, and make particular applications to your ſelf how you have perform<g ref="char:EOLhyphen"/>ed your own duty: when the Bannes are bid, pray that the mar<g ref="char:EOLhyphen"/>riage may be to the glory of God. Theſe are ſome ſhort Directions for your duty to God; I ſhall now add ſome for your duty to your Neighbours.</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="110" facs="tcp:93768:61"/>
+               <head>CHAP. IV.</head>
+               <argument>
+                  <p>
+                     <hi>The Country Man's Duty towards his Neighbour.</hi>
+                  </p>
+               </argument>
+               <div n="1" type="section">
+                  <head>SECT. I.</head>
+                  <argument>
+                     <p>
+                        <hi>To his Miniſter.</hi>
+                     </p>
+                  </argument>
+                  <p>FIrſt for your behaviour to your Miniſter, be very juſt in paying Tithes and other Dues to him,
+<note place="margin">Duty to Miniſters. Mal. 2.7. Iſa. 30.20. Hebr. 13.17. 1 Tim. 5.17. 1 Cor. 6.7. &amp; 9.7, 8, 9, 11, 13, 14. Rom. 15 27. Gal. 6.6. Matth. 10.41. &amp; 10.14, 15. Luke 10.16. 1 Cor. 4.1. 1 Theſſ. 12.13.</note> and that in obedi<g ref="char:EOLhyphen"/>ence to God, who has taught us by his holy Apoſtle, That they who wait at the Altar, that is, do the duty of a Miniſter, ſhould live by the Altar; and if they miniſter to us ſpiritual things, we ought to mi<g ref="char:EOLhyphen"/>niſter
+<pb n="111" facs="tcp:93768:61"/>to them in temporal things; for by attending the Miniſtry they are made incapable of gaining a livelyhood by other means.</p>
+                  <p>Secondly, Be very reſpectful in your behaviour to him, never ſpeaking rudely, but believe, in honouring your Miniſter you pleaſe God; and let not any per<g ref="char:EOLhyphen"/>ſonal failing make you neglect your Duty, for 'tis not his perſon only, but chiefly his office you muſt reſpect him for, and God will reward you for it: Suppoſing the worſt, that he has faults, conſider that he, as well as you, is liable to the ſame infirmities and tempta<g ref="char:EOLhyphen"/>tions; nay more, for Satan is vi<g ref="char:EOLhyphen"/>gilant to enſnare him, becauſe by it he hopes to do more miſchief, either by his ill example, or by
+<pb n="112" facs="tcp:93768:62"/>cauſing him not to be eſteemed, and ſo rendring his Miniſtry leſs effectual: Therefore to deſtroy what in you lies theſe deſigns of the Devil, be always more ready to cover, then expoſe his faults.</p>
+                  <p>In caſe of doubts, or hard pla<g ref="char:EOLhyphen"/>ces of Scripture, adviſe with him, and you will find great advantages and quiet to your mind: pray ear<g ref="char:EOLhyphen"/>neſtly for him, which is a duty you may find often recommended in Scripture; perhaps your neglect in this, is one cauſe of his labours being no more profitable to you. Pray for God's bleſſing on the Miniſter, that it may be ſucceſs<g ref="char:EOLhyphen"/>ful both for the ſaving himſelf, and them that hear him, that both his Life and Doctrine may be ho<g ref="char:EOLhyphen"/>ly, and fit for imitation; the more
+<pb n="113" facs="tcp:93768:62"/>defective he is, the more earneſt let your Prayers be that the grace of God may ſupply his defects; but if his Vices are very notorious and ſcandalous to his Office, after meek and frequent admonitions, let ſome of the chiefeſt Pariſhioners joyn and complain to the Biſhop, and proving your Accuſation by two or three grave and honeſt Witneſſes, endeavour to have him removed, as 'tis likely he will be, if your complaint be well proved. If he amends be glad, and forget all paſt Faults; for where God pardons, as he does on repentance and reformation, Man ought much more, who is himſelf alſo a ſinner. If he is deprived, and the choice is left to the Pariſhioners, be care<g ref="char:EOLhyphen"/>ful to chooſe well, eſpecially one
+<pb n="114" facs="tcp:93768:63"/>of a good Life, and a diligent Preacher of ſound Doctrine, and Catechiſing. If it depends on a particular Perſon, be very earneſt in your Prayers to God that he may be guided to make a good choice. But how bad ſoever your Miniſter is, do not think that will excuſe you in any particular of your duty, but you muſt conti<g ref="char:EOLhyphen"/>nue to pay your Tithes faithfully, which are his by the ſame Law that preſerves your right to what you profeſs; and to defraud him of any part thereof is Robbery and Sacriledge. Give him no juſt cauſe of complaint, but be ready to reſpect him, and do him and his Family all the good con<g ref="char:EOLhyphen"/>veniently you can, praying that his Doctrine may be ſound and
+<pb n="115" facs="tcp:93768:63"/>profitable, though his Example is not. I do not fear to promiſe that ſuch a behaviour will be both acceptable to God, and profitable to your ſelf, and it may be in time, he may by your Prayers and mild Behaviour grow better. If he is very bad, I do not prohibit your going ſome<g ref="char:EOLhyphen"/>times to another, but for the moſt part keep to your own Pa<g ref="char:EOLhyphen"/>riſh.</p>
+               </div>
+               <div n="2" type="section">
+                  <head>SECT. II.</head>
+                  <argument>
+                     <p>
+                        <hi>His Duty to his Superiours.</hi>
+                     </p>
+                  </argument>
+                  <p>SEcondly for your Behaviour to your Superiours, be care<g ref="char:EOLhyphen"/>ful to do your Duty to them.
+<pb n="116" facs="tcp:93768:64"/>Now Kings and Governours be<g ref="char:EOLhyphen"/>ing ſo far removed above you, and it being ſo hard for you to find the truth of their Actions, and harder to underſtand the reaſons of them, you muſt avoid all thoughts and diſcourſe, more then heartily pray<g ref="char:EOLhyphen"/>ing,
+<note place="margin">Duty to Superiours. Rom. 137. 1 Pet. 2.13.14. 1 Tim. 2 1, 2. Exod. 22.28. Jude 8. Acts 23.5. Eccl. 10.20. Prov. 24.21. Dan. 13.14, 15, 16, 17, 18.—6.7.8.9. Acts 5.29. &amp; 16.37, 38, 39. &amp; 22.25, 26, 27, 28.—25.10, 11. Lev. 19.12. Jer. 4.2. Exod. 20.26.—25.1. Prov. 14.25. Deut. 19.16, 19, 20, 21. Prov. 19.5. Deut. 16.19, 20. Prov. 17 15. Lev. 19.15.</note> that God would direct them to do what is moſt for his glory, and good of his Church, remem<g ref="char:EOLhyphen"/>bring the general Rule, To obey them in all their juſt Commands; but no Command is ſo, that is not a<g ref="char:EOLhyphen"/>greeable to the Laws of God, or Laws of the Land: But ſince you
+<pb n="117" facs="tcp:93768:64"/>do not know how far all thoſe Laws extended, 'tis ſufficient you do your duty to the beſt of your knowledge, without by-ends or intereſt, and what you cannot o<g ref="char:EOLhyphen"/>bey with a good Conſcience, pa<g ref="char:EOLhyphen"/>tiently ſuffer for a good Conſci<g ref="char:EOLhyphen"/>ence, and you ſhall have your re<g ref="char:EOLhyphen"/>ward in Heaven.</p>
+                  <p>If you happen to live in a time of War and Perſecution, or great Taxes, do not rail at your Go<g ref="char:EOLhyphen"/>vernours for theſe things, nor in<g ref="char:EOLhyphen"/>quire after any other cauſe, beſides ſin; for be aſſured that is the ge<g ref="char:EOLhyphen"/>neral, if not conſtant procurer of trouble; for God being infinitely good, would certainly perform all his promiſe in giving tempo<g ref="char:EOLhyphen"/>ral, as well as ſpiritual good things, did not our ſins provoke his an<g ref="char:EOLhyphen"/>ger,
+<pb n="118" facs="tcp:93768:65"/>and make it neceſſary to call us to Repentance by corre<g ref="char:EOLhyphen"/>ction, when we abuſe Proſperity; therefore when ever you find your ſelf unwilling to pay Taxes, or groan under the burthen by reaſon of your Neceſſities, only think this is the juſt puniſhment of my ſins, of my prodigality, in<g ref="char:EOLhyphen"/>temperance, idleneſs, neglect of God's ſervice, and the like; and ſo reſolve to amend and exhort your Neighbours to the ſame, when you hear them complain; and pray to God for pardon of ſin and mercy, either to put an end to the Miſeries of the Nati<g ref="char:EOLhyphen"/>on, or to ſanctifie them to the ſubduing ſin, and increaſing holi<g ref="char:EOLhyphen"/>neſs, and give you and others pa<g ref="char:EOLhyphen"/>tience to ſupport them in a Chri<g ref="char:EOLhyphen"/>ſtian
+<pb n="119" facs="tcp:93768:65"/>manner. For inferiour Ma<g ref="char:EOLhyphen"/>giſtrates, Juſtices of the Peace, and the like, if you are ever cal<g ref="char:EOLhyphen"/>led before them, come with re<g ref="char:EOLhyphen"/>verence and humility: If it is for a Crime, conſeſs if guilty, and beg pardon; if innocent, modeſt<g ref="char:EOLhyphen"/>ly juſtifie your ſelf. If called to be a Witneſs, either by Oath or Word, be ſtrict to the truth, with the greateſt exactneſs you can poſſibly, and neither to ſerve your ſelf nor friend be tempted to give falſe or de<g ref="char:EOLhyphen"/>ceitful Teſtimony: for it is a wilful ſin, and of a moſt heinous nature, and what may ſo wound your Conſcience, as to make you unhappy all your life time.</p>
+                  <p>If you are your ſelf called to any Office, as Conſtable, Church<g ref="char:EOLhyphen"/>warden,
+<pb n="120" facs="tcp:93768:66"/>Overſeer of the Poor, or the like, before you venture on your Office, endeavour to un<g ref="char:EOLhyphen"/>derſtand your Duty in it, and what it is you ſwear and under<g ref="char:EOLhyphen"/>take to do; grudge not to buy a Book for your Inſtruction, or go to your Miniſter and deſire him to inform you, and be care<g ref="char:EOLhyphen"/>ful to obſerve, and to the beſt of your power and knowledge per<g ref="char:EOLhyphen"/>form what you undertake faith<g ref="char:EOLhyphen"/>fully, more to pleaſe God then Man; and be not afraid of doing your duty, for God will protect you, and the Laws defend you in it.</p>
+               </div>
+               <div n="3" type="section">
+                  <pb n="121" facs="tcp:93768:66"/>
+                  <head>SECT. III.</head>
+                  <argument>
+                     <p>
+                        <hi>To his Landlord.</hi>
+                     </p>
+                  </argument>
+                  <p>THirdly, your Duty to your Landlord is, firſt, to en<g ref="char:EOLhyphen"/>deavour to pay your Rent ho<g ref="char:EOLhyphen"/>neſtly, and ſo ſoon as conveni<g ref="char:EOLhyphen"/>ently you can: If your bargain is hard, in mild and humble terms acquaint your Landlord, and take ſome grave and honeſt Neighbour with you, to intercede for an a<g ref="char:EOLhyphen"/>batement, and give an account of the reaſons of it: If you obtain it, be content, and let it not tempt you to inſiſt on another a<g ref="char:EOLhyphen"/>batement, but be ſatisfied in a good honeſt Bargain; and conſi<g ref="char:EOLhyphen"/>der your Landlord, though he
+<pb n="122" facs="tcp:93768:67"/>has more then you, yet has ſo many more occaſions for it, that he can no more afford to let too cheap, then you to pay too dear; and it is a great fault to be always repining and murmuring when it may be you know not where to better your ſelf. But if indeed your Landlord be ſevere, as ſoon as you lawfully can, leave your Farm, but do not by running a<g ref="char:EOLhyphen"/>way endeavor to defraud any, but pay honeſtly to the beſt of your Ability, and truſt God for a ſup<g ref="char:EOLhyphen"/>ply of your wants, who will ſome way or other provide for you if you ſerve him, and are induſtrious and willing to work. Indeed, few Landlords but will conſider ſuch, and take care of them ſome way or other; or your Neighbours
+<pb n="123" facs="tcp:93768:67"/>if they know you faithful, will not ſurely ſee you ſtarve; and food and raiment, with a quiet Conſcience, is far better then ri<g ref="char:EOLhyphen"/>ches, and honours, with a trou<g ref="char:EOLhyphen"/>bled mind. However, ſet your Landlord be good or bad, behave your ſelf towards him with re<g ref="char:EOLhyphen"/>ſpect and humility, not anſwering rudely, nor refuſing any ſmall thing he requires; but if he tempt you to ſin, as by forcing you to drink or act againſt your Conſci<g ref="char:EOLhyphen"/>ence, there be very reſolute in re<g ref="char:EOLhyphen"/>fuſing to comply with him; on<g ref="char:EOLhyphen"/>ly anſwer civilly, and get out of the way of temptation ſo ſoon as you can.</p>
+               </div>
+               <div n="4" type="section">
+                  <pb n="124" facs="tcp:93768:68"/>
+                  <head>SECT. IV.</head>
+                  <argument>
+                     <p>
+                        <hi>His Duty to his Wife and Children.</hi>
+                     </p>
+                  </argument>
+                  <p>YOur Duty to your Wife is, firſt, to inſtruct her in her duty to God and her Neighbour,
+<note place="margin">Duty of Husbands to their Wives and Children. Coloſſ. 3.19. 1 Pet. 3.7. Eph. 5.25, 28, 29, 31, 33.</note> if ſhe is ignorant; if ſhe is good, to encourage by kind<g ref="char:EOLhyphen"/>neſs to continue ſo: if ſhe is fro<g ref="char:EOLhyphen"/>ward, to bear with her weakneſs, and by mild reproof to convince her of her fault; and whatever faults ſhe has, endeavour to re<g ref="char:EOLhyphen"/>form her by your example, kind precepts, and gentle uſage, but e<g ref="char:EOLhyphen"/>eſpecially by earneſt Prayer for her Converſion: Be not too ſe<g ref="char:EOLhyphen"/>vere
+<pb n="125" facs="tcp:93768:68"/>in expecting more work then ſhe is able to perform, but be con<g ref="char:EOLhyphen"/>tent if ſhe's diligent, &amp; not waſtful; allow her convenient aſſiſtance ac<g ref="char:EOLhyphen"/>cording to your ability, but eſpe<g ref="char:EOLhyphen"/>cially in time of ſickneſs; alſo ſuch deſent Cloths as is neceſſary for her and your Children, and if ſhe's a good Huſwife, and not given to goſſipping, be not too ſtrict in requiring an account of what Money paſſes through her hands.</p>
+                  <p>For your Duty to your Chil<g ref="char:EOLhyphen"/>dren,
+<note place="margin">To Children. Deut 6.6, 7. Pſal. 78.5, 7. Prov. 22.6, 15. Epheſ. 6.4. Prov. 29.15, 17. &amp; 13.24. &amp; 19.18. Coloſſ. 3 21.</note> I have alrea<g ref="char:EOLhyphen"/>dy directed you, how you ſhould catechiſe and teach them daily, or ſo of<g ref="char:EOLhyphen"/>ten as you can, and call upon them, and while young, you or your wife hear them at leaſt
+<pb n="126" facs="tcp:93768:69"/>twice a day ſay their Prayers: if it be poſſible ſet them to School betimes, and at leaſt learn to read Engliſh well; work the har<g ref="char:EOLhyphen"/>der, and ſpend the leſs, to com<g ref="char:EOLhyphen"/>paſs ſo great a good for your poor Children, who have Souls capable of mortal glory, as well as the Children of Kings and Nobles. When they come home, keep them as much as you can to their Books, that ſo they may have learned that perfect while they are young, and ſo be the ſooner able to help you in your buſineſs; for it is a great neglect in ſuch as you to let your Children looſe their time while young; and then ſo ſoon as they begin to be able to help you, you grudge the time for their School, and ſo the poor
+<pb n="127" facs="tcp:93768:69"/>Children receive great prejudice, whereas did you keep them cloſe to School and to their Books in their Childhood, reading would be ſoon attained, and they at li<g ref="char:EOLhyphen"/>berty for other Imployments; and a little care in making them ſpend the Lord's day, and a quarter of an hour on other days in reading, would both keep and improve what they had learned. It will be of good uſe if you can afford to let them learn to write, and do them great ſervice, and may help their advancement if they are Servants or Tradeſmen, or in fol<g ref="char:EOLhyphen"/>lowing Husbandry it ſelf. Be ve<g ref="char:EOLhyphen"/>ry ſtrict in breeding them honeſt<g ref="char:EOLhyphen"/>ly, not ſuffering them to ſwear or lye, or take God's Name in vain; to be rude or quarrelſome
+<pb n="128" facs="tcp:93768:70"/>with their Brothers and Siſters, or the Servants. When they commit any fault reprove them firſt gent<g ref="char:EOLhyphen"/>ly, and by plain Arguments con<g ref="char:EOLhyphen"/>vince them of the greatneſs of the ſin and puniſhment it deſerves, ſhould God deal with them as in juſtice he might. If this does not do, but they continue in their fault, reprove them more ſeverely, and leave no means untried to re<g ref="char:EOLhyphen"/>form them: Endeavour by often calling to them, when at work or at meals, to make them love your company, and though you are never ſo poor, do not ſuffer them to be rude and diſobedient, but make them ſhow you reſpect, which will keep them in better o<g ref="char:EOLhyphen"/>bedience when they grow up, and diſpoſe them better to reſpect
+<pb n="129" facs="tcp:93768:70"/>their Maſters and Superiours; for one great cauſe, I verily believe of the barbarity, rudeneſs, and wickedneſs of the poorer ſort, has been the neglect of their Pa<g ref="char:EOLhyphen"/>rents in not teaching them to ſhew a due reſpect to themſelves, endeavour to make them ſenſible of the great happineſs of God's bleſſing, that without it all their labour is in vain, that ſo they may have a holy fear in all they do of offending God, and an ear<g ref="char:EOLhyphen"/>neſt deſire to pleaſe him, a quiet truſt and dependance on his fa<g ref="char:EOLhyphen"/>therly care, if they do their du<g ref="char:EOLhyphen"/>ty; this will make their Labours ſweet, and their Minds cheerful. Thoſe you deſign ſhould follow your own Vocation, it is ſufficient that they can read and write Eng<g ref="char:EOLhyphen"/>liſh
+<pb n="130" facs="tcp:93768:71"/>and inſtruct them in their Calling. Be careful to keep them from Ale-houſes and ſinful Sports, and incourage them to be painful in their own labour, for any that will not be one at any ſort of work with their Servants, and as early in the field as they, is not fit for an Husbandman: There<g ref="char:EOLhyphen"/>fore to this, nor any other Em<g ref="char:EOLhyphen"/>ployment, do not force your Child's inclination, but ſo ſoon as capable, let him make his own choice. If you deſign him for a Trade, reading, writing, and caſt<g ref="char:EOLhyphen"/>ing accompt are neceſſary; chooſe an honeſt Maſter, one that fears God, who is moſt likely to deal well with you, and keep your Child to his Duty. If you are not able to ſet him to Appren<g ref="char:EOLhyphen"/>tice,
+<pb n="131" facs="tcp:93768:71"/>or he rather chooſes Service, be careful to place him in an ho<g ref="char:EOLhyphen"/>neſt orderly Family, exhort him to be humble, and endeavour to deſerve a good place before he aſpires to it, to be reſpectful and diligent in his buſineſs, and faith<g ref="char:EOLhyphen"/>ful in word and deed. There is an excellent Book writ
+<note n="*" place="margin">Mr. <hi>Lucas</hi>'s Du<g ref="char:EOLhyphen"/>ty of Servants.</note> to teach the Duty of Servants, which you would do well to pro<g ref="char:EOLhyphen"/>vide him with. Whether he is Servant or Apprentice, do not hearken to all his idle Complaints, but encourage him to patience: though if you think them very juſt, you may endeavour to help them as far as the Law allows. Endeavour to maintain Love a<g ref="char:EOLhyphen"/>mong your Children, and keep
+<pb n="132" facs="tcp:93768:72"/>them, while at home, as much as you can in your own pre<g ref="char:EOLhyphen"/>ſence.</p>
+               </div>
+               <div n="5" type="section">
+                  <head>SECT. V.</head>
+                  <argument>
+                     <p>
+                        <hi>To his Servants.</hi>
+                     </p>
+                  </argument>
+                  <p>YOur Duty to your Ser<g ref="char:EOLhyphen"/>vants conſiſts principally in keeping them to their Duty, and paying them their wages ho<g ref="char:EOLhyphen"/>neſtly; if you will have them do you faithful Service, pray be<g ref="char:EOLhyphen"/>lieve the beſt way is to teach them the fear of God. To which end do not neglect to have them all preſent when you pray and read to your Wife and Children,
+<pb n="133" facs="tcp:93768:72"/>at leaſt Morning and Night. See they ſay their own Prayers daily,
+<note place="margin">Gen. 18.18, 19. Joſh. 24.15. Pſal. 101.9, 10. Lev. 25.49. E<g ref="char:EOLhyphen"/>pheſ. 6.9. Coloſſ. 4.1. 1 Tim. 5.8. Job 31.13, 14.</note> and call on them to ſpend the Lord's day, and other lei<g ref="char:EOLhyphen"/>ſure times, in reading and learn<g ref="char:EOLhyphen"/>ing their Catechiſe. If they can<g ref="char:EOLhyphen"/>not read, encourage them to ask you Queſtions as they are at work with you, and convince them of the great comfort of knowing and doing their duty. And ſince they cannot read, if they will not attend to Inſtructi<g ref="char:EOLhyphen"/>on, they muſt be wilfully igno<g ref="char:EOLhyphen"/>rant of the means of their Salva<g ref="char:EOLhyphen"/>tion, which is a damnable ſin. In<g ref="char:EOLhyphen"/>deed it is a great ſhame, that any that live in a Chriſtian Country, ſhould be ſo ignorant, as I fear
+<pb n="134" facs="tcp:93768:73"/>many amongſt us are. Call on them to hear Sermons, and let them miſs no opportunity of pub<g ref="char:EOLhyphen"/>lick Worſhip when you can ſpare them. If they are ſubject to ſwear or lie, to be drunk or talk immo<g ref="char:EOLhyphen"/>deſtly, admoniſh them gravely and ſharply, but if they reform not ſpeedily, turn them away, and let not any worldly conſideration tempt you to keep them, for if you do, your Children are in danger of being infected with ſuch ill Examples, and you bring a Curſe on your Family. <hi>Potiphar</hi>'s Houſe was bleſſed for <hi>Joſeph</hi>'s ſake; how know you but yours may be leſs proſperous for a wicked Servant: therefore when you have good ones prize them much, and uſe them kindly.</p>
+                  <pb n="135" facs="tcp:93768:73"/>
+                  <p>Next their Duty to God, keep to the duty of their Service, al<g ref="char:EOLhyphen"/>low them convenient reſt and wholſome food, but do not in<g ref="char:EOLhyphen"/>dulge them in idleneſs, nor care<g ref="char:EOLhyphen"/>leſs trifling in their work, but keep them to a full Employment, and ſee they follow it diligently, and do it with as great perfection as they can. It is far better to allow them now and then an hour of recreation, then to let them go on in a ſlothful way, though they always ſeem em<g ref="char:EOLhyphen"/>ployed; keep them to their work while at it, and then if they have ſpare time, they may do ſome<g ref="char:EOLhyphen"/>thing for themſelves. Do not ſuffer your Servant to be rude and ſurly to your Children, Neighbours, or Strangers: Good
+<pb n="136" facs="tcp:93768:74"/>manners is a good preparative for Religion; and we ſee where Peo<g ref="char:EOLhyphen"/>ple are leaſt civilized, how Igno<g ref="char:EOLhyphen"/>rance, Cruelty and Ill-nature ren<g ref="char:EOLhyphen"/>ders them almoſt barbarous; therefore be often telling your Children and Servants, how com<g ref="char:EOLhyphen"/>mendable a thing it is to be gen<g ref="char:EOLhyphen"/>tle and affable, always ready to do a good Office, give good words, and pay reſpect to their betters. I recommend this the more earneſtly, becauſe it is ſo common a fault among thoſe of that rank to be rude to their Su<g ref="char:EOLhyphen"/>periours, and often to bear a ſe<g ref="char:EOLhyphen"/>cret envy and hate to thoſe above them, and be ſo moroſe, as not to give a civil Anſwer, or tell the way to one in diſtreſs: Avoid ſuch faults, and believe me, by your
+<pb n="137" facs="tcp:93768:74"/>mild and kind behaviour you will find love and many other kind<g ref="char:EOLhyphen"/>neſſes: Suffer not your Servants to be with ſuch as are vicious, but only ſuch as live an innocent or<g ref="char:EOLhyphen"/>derly life; if any have Sweet<g ref="char:EOLhyphen"/>hearts, ſo ſoon as you diſcover it, acquaint their Parents; if promi<g ref="char:EOLhyphen"/>ſed, by no means endeavour to break it off, if they will not own their Affection, yet keep Compa<g ref="char:EOLhyphen"/>ny, 'tis beſt to part them, or at leaſt often tell them of the folly of deceiving one another, and the ſhame and danger of that abomi<g ref="char:EOLhyphen"/>nable ſin of Uncleanneſs. Pay them quarterly their wages, and give them what other reward you can afford, and they deſerve. If your Servant marries from you, let them not go away empty according to
+<pb n="138" facs="tcp:93768:75"/>to the Precept in <hi>Deuteronomy,</hi> Chap. 15.13. If they can change yours for a better Service, more to their Preferment, do not op<g ref="char:EOLhyphen"/>poſe it, but truſt to God's Provi<g ref="char:EOLhyphen"/>dence, and do not endeavour to obſtruct the greater profit with others which you cannot afford to give them your ſelf; only if it is a diſorderly wicked Family that they would go to, you ought to tell them the dangers and in<g ref="char:EOLhyphen"/>conveniencies, and adviſe them againſt it. Do not turn away your Servants for every trifle, if they are ſuch as fear God, nor keep thoſe that do not, though they may do you good Service, but prefer God's glory to your own benefit; thoſe you cannot reform part with.</p>
+               </div>
+               <div n="6" type="section">
+                  <pb n="139" facs="tcp:93768:75"/>
+                  <head>SECT. VI.</head>
+                  <argument>
+                     <p>
+                        <hi>To his Neighbours.</hi>
+                     </p>
+                  </argument>
+                  <p>YOur Duty to your Neigh<g ref="char:EOLhyphen"/>bours is to be ready to do them good Offices,
+<note place="margin">To his Neighbours. Theſſ. 5.11. Hebr. 3.13. 1 Cor. 15.23. Prov. 12.26. &amp; 23.20, 21. &amp; 28.19. 1 Cor. 5.9, 10, 11. Lev. 19.7. Prov. 25.12. &amp; 28.23. Epheſ. 5.11.</note> adviſe them when they ask it to the beſt of your skill; reprove them for their ſins and fol<g ref="char:EOLhyphen"/>lies, but with ſo great meekneſs and kindneſs, that they may ſee it is a ſenſe of your duty to God, and love of their Souls, that puts you upon doing it, therefore do it always in private. Whenever you go
+<pb n="140" facs="tcp:93768:76"/>to ſee your Neighbours, endea<g ref="char:EOLhyphen"/>vour not to part without ſaying ſomething that tends either to his or your own good, being as wil<g ref="char:EOLhyphen"/>ling to learn as to teach, and ſo encourage one another in the ways of God, often talking and thinking of the bleſſed end of all your labour, when you ſhall come to Heaven; this will comfort your wearineſs, and make all your troubles light. Be ready alſo to adminiſter comfort and help to your Neighbours tempo<g ref="char:EOLhyphen"/>ral wants, which will mightily convince them that your reproof is not out of pride, or to re<g ref="char:EOLhyphen"/>proach him for his faults, but re<g ref="char:EOLhyphen"/>al Chriſtian affection: Of this ſort of kindneſs is viſiting the ſick, comforting the afflicted, be<g ref="char:EOLhyphen"/>ing
+<pb n="141" facs="tcp:93768:76"/>ready to help if your Neigh<g ref="char:EOLhyphen"/>bour is behind hand with his Land, and getting in his Harveſt; not that you are obliged to neg<g ref="char:EOLhyphen"/>lect your own Buſineſs for ano<g ref="char:EOLhyphen"/>thers ſake, but only when you are firſt ſerved your ſelf, or the inconvenience you will ſuffer is very ſmall, and the good you can do your Neighbour is great, then you ought to venture your own ſmall danger to help your Neigh<g ref="char:EOLhyphen"/>bours great loſs; and if he ſhould be ſo ungrateful to forget it, God will not. If you ſee your Neigh<g ref="char:EOLhyphen"/>bour's Houſe fall under his bur<g ref="char:EOLhyphen"/>den help him up; or his Cattel ſtray out of the way, carry them back, and avoid that ill nature of pounding his Cattel on every little ſlight Treſpaſs. Be very
+<pb n="142" facs="tcp:93768:77"/>careful of your own Fences, ad<g ref="char:EOLhyphen"/>viſe your Neighbour to do the like, but if often warnings will do no good, and his Cattle do you any conſiderable Dammage, you may in a lawful way endea<g ref="char:EOLhyphen"/>vour to be made amends; but let this be done with a quiet Spirit, without brawling and bitterneſs; and if he will refer it to your Miniſter, or ſome honeſt Neigh<g ref="char:EOLhyphen"/>bour, go not to Law if you can avoid it, but be ſure do not fall into an Enmity, and whatever your Adverſary is, be you recon<g ref="char:EOLhyphen"/>ciled, and willing to ask and give pardon. If People went to Law or Reference with ſuch Spiritual Love, only deſiring what is juſt, Differences would be much eaſier made up then now they are. If
+<pb n="143" facs="tcp:93768:77"/>any of your Neighbours thrive more then you, do not repine or envy them, nor ſpeak ſlighting, as too many are apt to do of thoſe they envy; but conſider if their thriving come from God's Bleſſing, you ought to rejoyce, ſince he knows what is beſt for every one; but if he has his Por<g ref="char:EOLhyphen"/>tion in this World, he better de<g ref="char:EOLhyphen"/>ſerves your pity then your envy; and pray that God would not do ſo by you, but give you ſuch a Portion only as might advance you in your way to Heaven, where the only durable Riches are laid up for thoſe that love God. On the contrary, if any of your Neighbours fail in the World, and grow poor, do not rejoyce that you may be more
+<pb n="144" facs="tcp:93768:78"/>conſiderable by their fall; nor raſh imputing their Misfortune to the Judgment of God for their ſins: For though it is true that is originally the cauſe of all Evil, yet ſometimes God corrects thoſe he loves for his Glory, to manifeſt thoſe Graces he has wrought in them, to advance them to greater Perfection, or to perfect their Repentance.</p>
+               </div>
+               <div n="7" type="section">
+                  <pb n="145" facs="tcp:93768:78"/>
+                  <head>SECT. VII.</head>
+                  <argument>
+                     <p>
+                        <hi>His Duty to the Poor.</hi>
+                     </p>
+                  </argument>
+                  <p>THE laſt Duty I ſhall mention is what you owe to the Poor,
+<note place="margin">To the Poor. Deut. 15.9. James 2.15. Prov. 7.5. &amp; 11.24. 1 John 3.17.</note> and that is ſomething, be your Condition never ſo mean; not that I think a poor Man is ob<g ref="char:EOLhyphen"/>liged to Relieve all that come: but when you ſee very great and preſent want, let not ſuch a Man depart without a piece of Bread; a good Word and a Prayer to God to ſupply thoſe Wants you cannot: this Chari<g ref="char:EOLhyphen"/>ty,
+<pb n="146" facs="tcp:93768:79"/>if ſincere, and deſigned to pleaſe and obey God, not Man, you need not fear will make you poorer. When you know poor Workmen and Houſe-keepers are in great neceſſity, ſpeak to your rich Neighbours, and recommend their Caſe, and get ſomething for them if you can. Teach your Children and Servants to be compaſſionate of the Poor, and not deſpiſe and rail at them. When you give a ſmall Alms to relieve their Bodily wants, mini<g ref="char:EOLhyphen"/>ſter Comfort to their Souls; re<g ref="char:EOLhyphen"/>prove them gently if you hear them Swear; try their Know<g ref="char:EOLhyphen"/>ledge, and if Ignorant, teach them a neceſſary Truth, exhort them to love God, to frequent the Church, and be contented
+<pb n="147" facs="tcp:93768:79"/>with their Condition. But where any luſty young People take up a Trade of Bedding out of Idle<g ref="char:EOLhyphen"/>neſs, chide them ſharply, give them no Relief, unleſs in great Extremity.</p>
+                  <p>Thus, I think, I have given you ſome ſhort Directions for your behaviour to moſt of thoſe Perſons you are like to be much concern'd with; for your parti<g ref="char:EOLhyphen"/>cular Duties of a Chriſtian Life, I refer you to other godly Books, particularly <hi>The Whole Duty of Man,</hi> where you may be inſtruct<g ref="char:EOLhyphen"/>ed in the ſeveral Duties you owe and are to practice in relation to God, your Neighbour, and your ſelf; the danger of the contrary Vices, and how you are to o<g ref="char:EOLhyphen"/>vercome them. And ſurely now,
+<pb n="148" facs="tcp:93768:80"/>they that underſtand the value of their Souls, will not grudge buying a Book or two to teach them the way to an Eternal King<g ref="char:EOLhyphen"/>dom, the Bible, and two or three other Books well choſe, often read, and faithfully practiſed, may be as profitable, if not more, then reading of many Volumes. In the choice of your Books ad<g ref="char:EOLhyphen"/>viſe with ſome pious Friend, or your Miniſter.</p>
+               </div>
+               <div n="8" type="section">
+                  <pb n="149" facs="tcp:93768:80"/>
+                  <head>SECT. VIII.</head>
+                  <argument>
+                     <p>
+                        <hi>Of juſt Dealing.</hi>
+                     </p>
+                  </argument>
+                  <p>FOR your behaviour in Markets or Fairs, in buy<g ref="char:EOLhyphen"/>ing or ſelling,
+<note place="margin">Of juſt Dealing: 1 Tim. 6.6. &amp; 9.10. Prov. 28.20. 1 Theſſ. 4.6. Epheſ 5 5 Prov. 21.6. Levit. 25.14. Ezek. 23.15. Numb. 5.6, 7.</note> fear not being undone by honeſt deal<g ref="char:EOLhyphen"/>ing, not think that Almighty God ſtands in need of Deceits or Lies to make you rich, if he ſees Riches good for you; therefore act in theſe things uprightly, and truſt in his Providence, and you ſhall be rewarded in this Life, or a
+<pb n="150" facs="tcp:93768:81"/>better. Sell be ſure by an exact and honeſt Weight, and Mea<g ref="char:EOLhyphen"/>ſure; uſe not many words for fear there ſhould be ſin in them; but ſpeak the Truth, without any E<g ref="char:EOLhyphen"/>quivocation, whereby your Neigh<g ref="char:EOLhyphen"/>bour may be deceived, but ra<g ref="char:EOLhyphen"/>ther bear the loſs of the faults of your Goods your ſelf. Do not exact on the Ignorance or Ne<g ref="char:EOLhyphen"/>ceſſities of your Neighbour, ei<g ref="char:EOLhyphen"/>ther in buying or ſelling, but be willing to allow, as you expect a reaſonable gain. Before or after the Market, if you have time, go to Church if there is any Ser<g ref="char:EOLhyphen"/>vice there; but be ſure you a<g ref="char:EOLhyphen"/>void ſpending much time in Ale<g ref="char:EOLhyphen"/>houſes and Drinking. If your Affairs make it neceſſary to meet thoſe you have Buſineſs with, I do
+<pb n="151" facs="tcp:93768:81"/>not forbid you going to a pub<g ref="char:EOLhyphen"/>lick Houſe, but charge you, as you tender your eternal welfare, and I may add, though it is as nothing after the other, as you love your temporal welfare, not to drink to exceſs, nor ſpend more time in ſuch places then your buſineſs requires. If you find you cannot command your ſelf when in the way of Temp<g ref="char:EOLhyphen"/>tation, you muſt not go at all to ſuch Houſes, nor in the way of drinking, be the Temporal in<g ref="char:EOLhyphen"/>convenience never ſo great, till you have got more maſtery of your ſelf.</p>
+               </div>
+               <div n="9" type="section">
+                  <pb n="152" facs="tcp:93768:82"/>
+                  <head>SECT. IX.</head>
+                  <argument>
+                     <p>
+                        <hi>The Dames Duty to her Husband.</hi>
+                     </p>
+                  </argument>
+                  <p>AS for the Duties of the Dame or Miſtreſs, in rela<g ref="char:EOLhyphen"/>tion to God,
+<note place="margin">Wives Duty to Husbands. Epheſ. 5 22, 23, 24. 1 Pet. 3.1, 2, 3, 4, 5, 6. 1 Tim. 2.12. Titus 2 4 5. Prov. 12 4. &amp; 27.15. &amp; 21.19. Prov. 31 Chapt.</note> they differ very little, only ſhe is to give place in all things to her Husband. But in caſe he can<g ref="char:EOLhyphen"/>not read, or is from home, I ſee no inconvenience, but rather good, for her to read ſome good Prayer to her Children and Servants; or if ſhe has a Son able to do it in
+<pb n="153" facs="tcp:93768:82"/>his Father's abſence, let him do it. For Inſtruction ſhe muſt take care of her Children and Maids, and often call on them to do their Duty; ſee they pray privately twice a day, beſides being pre<g ref="char:EOLhyphen"/>ſent at Family Prayers, and take care they do it with reverence and affection, and not for forms ſake, and ſaying the words with<g ref="char:EOLhyphen"/>out underſtanding the ſenſe. Let her keep her Children, whilſt young, conſtantly to School, and when they come home, make them con their Books, get by heart their Catechiſm, Chapters, and Pſalms, for this will make them come forward apace, ſo that by that time they are able to work, they will be perfect; where<g ref="char:EOLhyphen"/>as if you neglect to call on them
+<pb n="154" facs="tcp:93768:83"/>at home, they will be ſo long learning to read, that both the charge and trouble will be much more. Let the Girls, who are more eſpecially under the Wo<g ref="char:EOLhyphen"/>mans government, be ſet to work ſo ſoon as capable, and learn to knit, ſpin, ſew, and do the af<g ref="char:EOLhyphen"/>fairs of the Houſe as they are a<g ref="char:EOLhyphen"/>ble, and ſuffer them not to re<g ref="char:EOLhyphen"/>fuſe the meaneſt work in their Father's Houſe, ſo they will come to underſtand how it is to be done, and be fitter for Service, and to manage a Houſe of their own. If you can afford it, let them learn to work good Plain-work, and to write, and keep them to be very neat and cleanly in all they do, to riſe early, ſleep and eat mode<g ref="char:EOLhyphen"/>rately, and be induſtrious, and
+<pb n="155" facs="tcp:93768:83"/>with God's bleſſing ſuch Maids need not fear getting an honeſt Service, and are fitted to make good Wives, when their Parents think fit: be eſpecially careful to prevent fondneſs in your Daugh<g ref="char:EOLhyphen"/>ters and Maids, and often ſet be<g ref="char:EOLhyphen"/>fore them the monſtrous defor<g ref="char:EOLhyphen"/>mity of an immodeſt Woman, and the great Beauty and Pru<g ref="char:EOLhyphen"/>dence of a chaſt, modeſt, humble Maid. As your Daughter ought not to marry without your con<g ref="char:EOLhyphen"/>ſent, ſo do not conſtrain her where ſhe has an averſion, nor croſs her Affection too much if the Man is ſober and honeſt.</p>
+                  <p>While at your work in the Houſe or Field, be often ſaying ſome profitable thing, cauſing your Children to repeat what they
+<pb n="156" facs="tcp:93768:84"/>have learnt by heart, and inſtead of idle Ballads, let them learn Pſalms to ſing at their work, ſo ſhall your Houſe be a little Temple of God, and a Bleſſing accom<g ref="char:EOLhyphen"/>pany all your Labour, and make you both happy and contented here, and diſpoſe you for Eter<g ref="char:EOLhyphen"/>nal Happineſs in the World to come, which is ſo great a Hope, that nothing but ſad Experience could make one think it poſſible, that they that pretend to believe the Truth of Eternal Glory and Happineſs, can be ſo miſerably negligent in the purſuit of, and endeavours after it.</p>
+                  <p>Having in the fore-going Di<g ref="char:EOLhyphen"/>rections often Exhorted you to think of God, and entertain ho<g ref="char:EOLhyphen"/>ly
+<pb n="157" facs="tcp:93768:84"/>Meditations and Ejaculations at your work, I will here give you ſome few Examples, not to uſe in a ſet formal manner, but for the direction and quickning to inlarge as your Devotion di<g ref="char:EOLhyphen"/>rects.</p>
+               </div>
+               <div type="part">
+                  <pb n="158" facs="tcp:93768:85"/>
+                  <head>Meditations and Ejacula<g ref="char:EOLhyphen"/>tions proper for ſeveral Occaſions.</head>
+                  <p>IN a Morning, when you find your Cattle well, or have hopes of ſeaſonable Weather, ad<g ref="char:EOLhyphen"/>mire God's goodneſs, and look not on theſe Bleſſings as the Courſe of Nature, or what you have a right to, but as the imme<g ref="char:EOLhyphen"/>diate gift of God, and as if they were newly beſtowed on you; and ſay in your heart— Lord, I thank thee for all thy gifts, it is thy bounty that firſt gave them, and the ſame bounty preſerve
+<pb n="159" facs="tcp:93768:85"/>them; O give me grace to uſe them to thy glory, that I may never abuſe them to ſin or vani<g ref="char:EOLhyphen"/>ty, to diſhonour thee or hurt my Neighbour, but be a faithful Steward of all thoſe Talents com<g ref="char:EOLhyphen"/>mitted to my charge, that ſo I may find Mercy in the Day of our Lord.— If your Cattle is ſick or die, or the Weather un<g ref="char:EOLhyphen"/>ſeaſonable, conſider it is the Mercy of God, that you loſe not all, or that you had not ſuch loſſes ſooner, for ſhould he with<g ref="char:EOLhyphen"/>draw his protection, you might be by the malice of the Devil (who hates all thoſe that ſerve God) reduced to the condition of <hi>Job,</hi> and let ſuch Accidents convince you of the great neceſſity of God's Bleſſing, and how vain all your
+<pb n="160" facs="tcp:93768:86"/>labour or care is without it; not being able to cauſe a fair day when you want it, or reſtore a poor Beaſt to health; here you may thus meditate—Lord, thy will be done, giving or taking what thou haſt given, thy Name be bleſt; I thank thee for all thy paſt Mer<g ref="char:EOLhyphen"/>cies, and ſubmit to my preſent loſſes, ſanctifie them to my pro<g ref="char:EOLhyphen"/>fit, my ſins deſerve worſe puniſh<g ref="char:EOLhyphen"/>ments; whatever thou recalleſt, let it not be any degree of grace, or thy favour, for ſo long as I am thy reconcil'd Child, I cannot be miſerable; but without thy love I am moſt wretched could I poſ<g ref="char:EOLhyphen"/>ſeſs the whole World; for what ſhall it profit to gain the whole World and loſe my Soul.</p>
+                  <p>When you begin a new work,
+<pb n="161" facs="tcp:93768:86"/>dedicate it to God, and ſay—Lord, I deſire to do all to thy glory, all for thy love, and in obedience to thy will; bleſs this my labour that it may proſper, and grant that I may firſt ſeek thy Kingdom and its Righteouſ<g ref="char:EOLhyphen"/>neſs, and have ſuch a portion of Temporal Bleſſings as thou ſeeſt beſt for me.</p>
+                  <p>If you are ſick or in pain, look on it as ſent from God, and ſub<g ref="char:EOLhyphen"/>mit to it, ſaying—Lord keep me from ſin, the worſt of evils; the more the Outward man is afflict<g ref="char:EOLhyphen"/>ed, the more I beg thy grace to ſupport my Spirit with Faith and Patience.—</p>
+                  <p>When you hear talk of Wars and Trouble in Church or State, or are ſad at the thoughts of Di<g ref="char:EOLhyphen"/>viſions
+<pb n="162" facs="tcp:93768:87"/>among Chriſtians. Remem<g ref="char:EOLhyphen"/>ber that God is infinite in good<g ref="char:EOLhyphen"/>neſs, wiſdom, and power, and will bring good out of all. When you find your ſelf affected with theſe Thoughts, retire to pray for your fellow Creatures, or at leaſt at your work ſometimes lift up your heart to God, to pray that he would enlighten all Man<g ref="char:EOLhyphen"/>kind, that they may both be<g ref="char:EOLhyphen"/>lieve and obey the Goſpel; that he would unite the Diviſions a<g ref="char:EOLhyphen"/>mong Chriſtians, and reform what<g ref="char:EOLhyphen"/>ever he found amiſs in their Be<g ref="char:EOLhyphen"/>lief and Practice, that all Chri<g ref="char:EOLhyphen"/>ſtian People might have a true Chriſtian Spirit, a Spirit of Love and Charity, proving their Diſci<g ref="char:EOLhyphen"/>pleſhip by their Love to one ano<g ref="char:EOLhyphen"/>ther, that ſo God might be wor<g ref="char:EOLhyphen"/>ſhipped
+<pb n="163" facs="tcp:93768:87"/>in Spirit and Truth, to his glory and their ſalvation.</p>
+                  <p>When you lye under any Temptations, ſay to this effect—Lord let thy power be magnified in my weakneſs, ſuffer me not to be tempted above my ſtrength, take away the Temptation, or enable me to reſiſt and overcome it.</p>
+                  <p>Before you read the holy Scrip<g ref="char:EOLhyphen"/>ture, pray that God would aſſiſt you with his enlightning grace, that ſo your Faith may reſt, not on the Wiſdom of Men, but on the Power of God, that you may rightly underſtand and faithfully practiſe what you know, that ſo obeying the Commands, you may inherit the Promiſes of the Go<g ref="char:EOLhyphen"/>ſpel, and that the ſteadfaſt belief
+<pb n="164" facs="tcp:93768:88"/>of God's Word may be your Comfort and Support againſt all Temptations of the World, the Devil, or your own Corruptions. Before you go into company, or before you reprove or adviſe a<g ref="char:EOLhyphen"/>ny, think how you may do moſt good, and beſt pleaſe God,—ſay, Lord be preſent with me, ſancti<g ref="char:EOLhyphen"/>fie my Heart and Tongue which I dedicate to thee, and give me both courage and wiſdom to ſpeak in due ſeaſon, for thy glory and my Neighbours good; and let thy Spirit both aſſiſt me, and ſupply my defects by its powerful work<g ref="char:EOLhyphen"/>ing on the heart of my Neigh<g ref="char:EOLhyphen"/>bour.</p>
+                  <p>As you ſow your Ground, you may from thence draw a Medita<g ref="char:EOLhyphen"/>tion of Death and Reſurrection,
+<pb n="165" facs="tcp:93768:88"/>of the neceſſity of grace and good works; for as you muſt do your part to manure the Grounds, and ſow the Seed, and you expect ſeaſonable Weather to make it bring forth; ſo muſt you do your endeavours to prepare your heart to receive the grace of God, and by Prayer to procure his bleſſed Spirit, by which aid alone you are enabled to do the will of God.—Lord, as without thy bleſ<g ref="char:EOLhyphen"/>ſing all my labour is in vain, ſo if thy grace does not aſſiſt me, I am all weakneſs. O pity thy poor Creature, the work of thy hands, and both ſow the Seed of true Faith in my heart, and water it with thy grace, that it may bring forth the Fruits of a Holy Life.</p>
+                  <p>When you ſee Harveſt getting
+<pb n="166" facs="tcp:93768:89"/>in, you may meditate to this ef<g ref="char:EOLhyphen"/>fect—O Lord, grant that I may be as a fruitful Field ready for Harveſt, that ſo when Death or Judgment comes, I may rejoyce, and not mourn, that my work being done I ſhall ever reſt, not only from labour but from ſin, and be perfect in loving and ſer<g ref="char:EOLhyphen"/>ving God.</p>
+                  <p>If you hear profane People talk, or are tempted to doubt in any point of Faith, ſay—<hi>Lord I believe, help my unbelief.</hi> I be<g ref="char:EOLhyphen"/>lieve, and am ſure that thy Word is moſt true, and that my doubts are only the effects of my own weakneſs; Lord I believe what<g ref="char:EOLhyphen"/>ever thou haſt revealed, I re<g ref="char:EOLhyphen"/>nounce all my Errours, and beg thou wilt either pardon my igno<g ref="char:EOLhyphen"/>rant
+<pb n="167" facs="tcp:93768:89"/>Miſtakes, or give me light to diſcover and forſake them; thy Word is perfect, I believe and de<g ref="char:EOLhyphen"/>ſire to obey it.</p>
+                  <p>If you ſee any in a mean or miſerable condition, think of God's goodneſs to you, and ſay—Who is it that made me to differ, and what have I that I have not re<g ref="char:EOLhyphen"/>ceived; and if I have received it, why do I glory as if I had not re<g ref="char:EOLhyphen"/>ceived it; let my Brother's miſery make me thankful to God, and charitable to him, that he be not tempted to envy my Proſperity.</p>
+                  <p>If you find your ſelf inclined to diſcontent, ſay,—Lord it is enough for me that I may but love thee, and be loved by thee. Shall I complain of an ill Nights lodging in an Inn, when I ſhall
+<pb n="168" facs="tcp:93768:90"/>ſoon be at my Fathers Houſe, and have there as large a ſhare of glo<g ref="char:EOLhyphen"/>ry and happineſs as my Soul is capable of? How can I be more honourable than to be a Child of God, who is Lord of Heaven and Earth? How can I be richer than to have peace here, and glory here<g ref="char:EOLhyphen"/>after? Let me inſtead of murmu<g ref="char:EOLhyphen"/>ring, admire the great goodneſs of my heavenly Father, and rejoice in my Neighbour's Happineſs; for in Heaven no one envies another, but is made more happy by the Felicity of the reſt.</p>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:93768:90"/>
+         </div>
+      </body>
+   </text>
+</TEI>
